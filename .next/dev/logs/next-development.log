@@ -1,8 +1,55 @@
-[01:21:14.592] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:21:15.110] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:21:15.110] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:21:15.110] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:21:15.110] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:21:22.799] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
-[01:21:22.806] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
-[01:21:22.807] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:00:01.840] Server  LOG      ✓ Ready in 1572ms
+[00:00:06.566] Server  LOG      ○ Compiling / ...
+[00:00:08.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.931] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:10.931] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.932] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.602] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:20.457] Server  LOG      ✓ Compiled in 141ms
+[00:00:25.397] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:00:25.413] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:00:26.726] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:00:33.834] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:00:33.836] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:00:33.846] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:00:34.808] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:43.973] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:00:44.000] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:00:44.006] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:00:44.088] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:00:44.092] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:00:44.096] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:01:48.479] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:01:48.485] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:01:48.486] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:01:48.486] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:01:48.487] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:01:48.499] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:01:52.926] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:01:52.931] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:01:52.964] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:01:53.891] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:01:53.892] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:01:53.893] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:01:53.959] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:01:53.960] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:01:53.960] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:03:46.877] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:03:46.881] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:03:46.883] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:03:47.022] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:03:47.024] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:03:47.038] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:03:48.244] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:03:48.245] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:03:48.251] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:03:48.356] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:03:48.358] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:03:48.388] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:05:50.452] Server  LOG      ✓ Compiled in 541ms
+[00:06:42.158] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:06:42.159] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:06:42.159] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:06:42.298] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:06:42.322] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:06:42.325] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/hanifizuddin/Desktop/Desktop%20-%20Muhammad%E2%80%99s%20MacBook%20Pro/Projects/Elite%20Club/eliteclub/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport Navbar from \"@/app/components/Navbar\";\n\nexport default function Home() {\n  return (\n    <div className=\"flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black\">\n      <Navbar />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;;;;;;;;;;AAGP","debugId":null}}]
-}

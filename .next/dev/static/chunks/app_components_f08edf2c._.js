@@ -395,7 +395,10 @@ const ContactComponent = ()=>{
                                                 type: "date",
                                                 value: preferredDate,
                                                 onChange: (e)=>setPreferredDate(e.target.value),
-                                                className: "w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-sm"
+                                                style: {
+                                                    colorScheme: 'dark'
+                                                },
+                                                className: "w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/booking.tsx",
                                                 lineNumber: 139,
@@ -414,23 +417,26 @@ const ContactComponent = ()=>{
                                                 children: "Preferred Time"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/booking.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 149,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "time",
                                                 value: preferredTime,
                                                 onChange: (e)=>setPreferredTime(e.target.value),
-                                                className: "w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-sm"
+                                                style: {
+                                                    colorScheme: 'dark'
+                                                },
+                                                className: "w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/booking.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 152,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/booking.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 148,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
@@ -445,30 +451,23 @@ const ContactComponent = ()=>{
                                     onClick: handleWhatsAppClick,
                                     className: "w-full bg-[#F7C873] hover:bg-[#434343] text-[#1B1B1B] font-semibold py-3 px-6 rounded-xl transition-colors duration-200 shadow-md flex items-center justify-center text-sm",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                            className: "w-5 h-5 mr-2",
-                                            fill: "currentColor",
-                                            viewBox: "0 0 24 24",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarCheck$3e$__["CalendarCheck"], {}, void 0, false, {
-                                                fileName: "[project]/app/components/booking.tsx",
-                                                lineNumber: 167,
-                                                columnNumber: 19
-                                            }, ("TURBOPACK compile-time value", void 0))
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarCheck$3e$__["CalendarCheck"], {
+                                            className: "w-5 h-5 mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/booking.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 168,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         "Book Now!"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/booking.tsx",
-                                    lineNumber: 162,
+                                    lineNumber: 164,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/booking.tsx",
-                                lineNumber: 161,
+                                lineNumber: 163,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -646,7 +645,10 @@ const ContactComponent = ()=>{
                                                             type: "date",
                                                             value: preferredDate,
                                                             onChange: (e)=>setPreferredDate(e.target.value),
-                                                            className: "w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-xs md:text-sm lg:text-base"
+                                                            style: {
+                                                                colorScheme: 'dark'
+                                                            },
+                                                            className: "w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-xs md:text-sm lg:text-base"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
                                                             lineNumber: 257,
@@ -665,23 +667,26 @@ const ContactComponent = ()=>{
                                                             children: "Preferred Time"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 267,
+                                                            lineNumber: 268,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                             type: "time",
                                                             value: preferredTime,
                                                             onChange: (e)=>setPreferredTime(e.target.value),
-                                                            className: "w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-xs md:text-sm lg:text-base"
+                                                            style: {
+                                                                colorScheme: 'dark'
+                                                            },
+                                                            className: "w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-xs md:text-sm lg:text-base"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 270,
+                                                            lineNumber: 271,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/booking.tsx",
-                                                    lineNumber: 266,
+                                                    lineNumber: 267,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
@@ -708,24 +713,24 @@ const ContactComponent = ()=>{
                                                     className: "w-3 h-3 lg:w-4 lg:h-4 xl:w-5 xl:h-5 mr-1.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/booking.tsx",
-                                                    lineNumber: 287,
+                                                    lineNumber: 289,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "Book Now!"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/booking.tsx",
-                                            lineNumber: 283,
+                                            lineNumber: 285,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/booking.tsx",
-                                        lineNumber: 282,
+                                        lineNumber: 284,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/booking.tsx",
-                                    lineNumber: 281,
+                                    lineNumber: 283,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
@@ -777,7 +782,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "relative flex flex-col lg:items-end justify-center text-[#FAEBCD]",
+        className: "relative flex flex-col lg:items-end justify-center text-[#FAEBCD] z-20",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                 className: "absolute inset-0 w-full h-full object-cover z-0",

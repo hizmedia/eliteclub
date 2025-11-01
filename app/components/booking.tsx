@@ -140,7 +140,8 @@ const ContactComponent = () => {
                   type="date"
                   value={preferredDate}
                   onChange={(e) => setPreferredDate(e.target.value)}
-                  className="w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-sm"
+                  style={{ colorScheme: 'dark' }}
+                  className="w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
                 />
               </div>
 
@@ -152,7 +153,8 @@ const ContactComponent = () => {
                   type="time"
                   value={preferredTime}
                   onChange={(e) => setPreferredTime(e.target.value)}
-                  className="w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-sm"
+                  style={{ colorScheme: 'dark' }}
+                  className="w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
                 />
               </div>
             </div>
@@ -163,9 +165,7 @@ const ContactComponent = () => {
                 onClick={handleWhatsAppClick}
                 className="w-full bg-[#F7C873] hover:bg-[#434343] text-[#1B1B1B] font-semibold py-3 px-6 rounded-xl transition-colors duration-200 shadow-md flex items-center justify-center text-sm"
               >
-                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                  <CalendarCheck />
-                </svg>
+                <CalendarCheck className="w-5 h-5 mr-2" />
                 Book Now!
               </button>
             </div>
@@ -258,7 +258,8 @@ const ContactComponent = () => {
                     type="date"
                     value={preferredDate}
                     onChange={(e) => setPreferredDate(e.target.value)}
-                    className="w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-xs md:text-sm lg:text-base"
+                    style={{ colorScheme: 'dark' }}
+                    className="w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-xs md:text-sm lg:text-base"
                   />
                 </div>
 
@@ -271,7 +272,8 @@ const ContactComponent = () => {
                     type="time"
                     value={preferredTime}
                     onChange={(e) => setPreferredTime(e.target.value)}
-                    className="w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent scheme-dark text-xs md:text-sm lg:text-base"
+                    style={{ colorScheme: 'dark' }}
+                    className="w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-xs md:text-sm lg:text-base"
                   />
                 </div>
               </div>

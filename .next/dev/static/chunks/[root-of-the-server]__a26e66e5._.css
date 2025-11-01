@@ -850,10 +850,6 @@
     left: 50%;
   }
 
-  .-z-10 {
-    z-index: calc(10 * -1);
-  }
-
   .z-0 {
     z-index: 0;
   }
@@ -1098,10 +1094,6 @@
 
   .h-full {
     height: 100%;
-  }
-
-  .h-screen {
-    height: 100vh;
   }
 
   .max-h-0 {
@@ -1773,10 +1765,6 @@
 
   .opacity-30 {
     opacity: .3;
-  }
-
-  .opacity-50 {
-    opacity: .5;
   }
 
   .opacity-60 {

@@ -4,7 +4,7 @@ import { Sparkles } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative flex flex-col lg:items-end justify-center text-[#FAEBCD]">
+    <section className="relative flex flex-col lg:items-end justify-center text-[#FAEBCD] z-20">
       {/* 🎥 Background video */}
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
