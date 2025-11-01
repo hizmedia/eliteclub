@@ -980,6 +980,10 @@
     margin-right: auto;
   }
 
+  .-mb-50 {
+    margin-bottom: calc(var(--spacing) * -50);
+  }
+
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
@@ -1132,8 +1136,20 @@
     height: calc(var(--spacing) * 1000);
   }
 
+  .h-\[1dvh\] {
+    height: 1dvh;
+  }
+
   .h-\[100dvh\] {
     height: 100dvh;
+  }
+
+  .h-\[100svh\] {
+    height: 100svh;
+  }
+
+  .h-\[100vh\] {
+    height: 100vh;
   }
 
   .h-\[2000px\] {
@@ -1827,6 +1843,10 @@
 
   .opacity-30 {
     opacity: .3;
+  }
+
+  .opacity-40 {
+    opacity: .4;
   }
 
   .opacity-50 {
