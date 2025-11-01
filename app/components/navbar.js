@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-[#DC9A09]/30 sticky top-0 z-50 font-merriweather w-full h-16">
+    <nav className="bg-[#DC9A09]/30 sticky top-0 z-80 font-merriweather w-full h-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="hidden md:flex items-center justify-between h-16">
           <div className="relative h-8 w-auto">
@@ -25,7 +25,7 @@ export default function Navbar() {
           </div>
           {/* Center - Nav Links */}
           <div className="flex space-x-8">
-            <button className="bg-[#DC9A09] hover:bg-[#F7C873] text-white px-4 py-2 rounded-lg text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg cursor-pointer font-el-messiri">
+            <button className="bg-[#DC9A09] hover:bg-[#F7C873] text-[#FAEBCD] px-4 py-2 rounded-lg text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg cursor-pointer font-poppins">
               Book Now
             </button>
           </div>
@@ -56,19 +56,19 @@ export default function Navbar() {
             <div className="w-5 h-6 relative flex flex-col justify-center">
               {/* Top line */}
               <div
-                className={`w-5 h-0.5 bg-white rounded-full transition-all duration-300 ease-in-out ${
+                className={`w-5 h-0.5 bg-[#FAEBCD] rounded-full transition-all duration-300 ease-in-out ${
                   isOpen ? "rotate-45 translate-y-1.5" : ""
                 }`}
               />
               {/* Middle line */}
               <div
-                className={`w-5 h-0.5 bg-white rounded-full mt-1 transition-all duration-300 ease-in-out ${
+                className={`w-5 h-0.5 bg-[#FAEBCD] rounded-full mt-1 transition-all duration-300 ease-in-out ${
                   isOpen ? "opacity-0" : ""
                 }`}
               />
               {/* Bottom line */}
               <div
-                className={`w-5 h-0.5 bg-white rounded-full mt-1 transition-all duration-300 ease-in-out ${
+                className={`w-5 h-0.5 bg-[#FAEBCD] rounded-full mt-1 transition-all duration-300 ease-in-out ${
                   isOpen ? "-rotate-45 -translate-y-1.5" : ""
                 }`}
               />
@@ -83,7 +83,7 @@ export default function Navbar() {
           } overflow-hidden`}
         >
           <div className=" rounded-2xl mt-2 shadow-lg">
-            <button className="w-full bg-[#DC9A09] hover:bg-[#FAEBCD] text-[#FAEBCD] px-3 py-2 rounded-md text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg">
+            <button className="w-full bg-[#DC9A09] hover:bg-[#FAEBCD] font-poppins text-[#FAEBCD] px-3 py-2 rounded-md text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg">
               Book Now
             </button>
 

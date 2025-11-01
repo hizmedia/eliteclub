@@ -129,7 +129,7 @@
     --color-gray-700: #364153;
     --color-zinc-50: #fafafa;
     --color-black: #000;
-    --color-white: #fff;
+    --color-[#FAEBCD]: #fff;
     --spacing: .25rem;
     --container-7xl: 80rem;
     --text-xs: .75rem;
@@ -658,17 +658,17 @@
     background-color: #0000;
   }
 
-  .bg-white {
-    background-color: var(--color-white);
+  .bg-[#FAEBCD] {
+    background-color: var(--color-[#FAEBCD]);
   }
 
-  .bg-white\/50 {
+  .bg-[#FAEBCD]\/50 {
     background-color: #ffffff80;
   }
 
   @supports (color: color-mix(in lab, red, red)) {
-    .bg-white\/50 {
-      background-color: color-mix(in oklab, var(--color-white) 50%, transparent);
+    .bg-[#FAEBCD]\/50 {
+      background-color: color-mix(in oklab, var(--color-[#FAEBCD]) 50%, transparent);
     }
   }
 
@@ -773,8 +773,8 @@
     color: var(--color-gray-700);
   }
 
-  .text-white {
-    color: var(--color-white);
+  .text-[#FAEBCD] {
+    color: var(--color-[#FAEBCD]);
   }
 
   .antialiased {
@@ -852,8 +852,8 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-white:hover {
-      background-color: var(--color-white);
+    .hover\:bg-[#FAEBCD]:hover {
+      background-color: var(--color-[#FAEBCD]);
     }
   }
 

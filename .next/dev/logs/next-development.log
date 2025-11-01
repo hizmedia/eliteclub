@@ -1,1095 +1,310 @@
-[00:00:02.165] Server  LOG      ✓ Ready in 1852ms
-[00:00:04.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.575] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1752007219/Group_19_ihlqqq.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:05.575] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1752007219/Group_19_ihlqqq.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:05.759] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1760604400/Logo_Transparent_ks8ufb.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:05.759] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1760604400/Logo_Transparent_ks8ufb.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:52.929] Server  LOG      ✓ Compiled in 38ms
-[00:01:01.188] Server  LOG      ✓ Compiled in 27ms
-[00:01:37.452] Server  LOG      ✓ Compiled in 58ms
-[00:03:06.002] Server  LOG      ✓ Compiled in 155ms
-[00:03:11.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:11.879] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1760604400/Logo_Transparent_ks8ufb.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:03:11.879] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1752007219/Group_19_ihlqqq.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:11.879] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1760604400/Logo_Transparent_ks8ufb.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:26.954] Server  LOG      ✓ Compiled in 95ms
-[00:03:31.309] Server  LOG      ✓ Compiled in 40ms
-[00:03:33.196] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:33.196] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:03:52.432] Server  LOG      ✓ Compiled in 23ms
-[00:04:49.934] Server  LOG      ✓ Compiled in 104ms
-[00:04:54.322] Server  LOG      ✓ Compiled in 61ms
-[00:05:23.578] Server  LOG      ✓ Compiled in 32ms
-[00:05:58.920] Server  LOG      ✓ Compiled in 51ms
-[00:06:14.734] Server  LOG      ✓ Compiled in 27ms
-[00:06:17.477] Server  LOG      ✓ Compiled in 20ms
-[00:06:32.527] Server  LOG      ✓ Compiled in 49ms
-[00:06:57.800] Server  LOG      ✓ Compiled in 91ms
-[00:07:11.333] Server  LOG      ✓ Compiled in 53ms
-[00:07:19.950] Server  LOG      ✓ Compiled in 37ms
-[00:07:27.982] Server  LOG      ✓ Compiled in 23ms
-[00:07:43.991] Server  LOG      ✓ Compiled in 92ms
-[00:09:45.104] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:00.897] Server  LOG      ✓ Ready in 682ms
+[00:00:04.004] Server  LOG      ○ Compiling / ...
+[00:00:06.045] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[00:00:06.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.127] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[00:00:20.878] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.491] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:21.491] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:21.491] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:21.491] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:31.845] Server  LOG      ✓ Compiled in 305ms
+[00:00:32.967] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[00:00:33.932] Server  LOG      ✓ Compiled in 54ms
+[00:00:34.712] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[00:00:35.225] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.632] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[00:00:50.144] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.106] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.149] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.112] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.153] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.116] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.157] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.118] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.159] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.124] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.161] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.127] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.166] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.128] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.170] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.130] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.173] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.131] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.176] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.132] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.177] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.133] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.178] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.136] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.185] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.137] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.187] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.138] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.188] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.138] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.192] Server  ERROR    ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
+Import map: aliased to relative './app/components/background' inside of [project]/
 
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
 
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:09:45.140] Server  LOG      ✓ Compiled in 157ms
-[00:09:45.539] Browser ERROR   ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
+[00:00:50.193] Server  LOG      ✓ Compiled in 218ms
+[00:00:50.969] Browser ERROR   ./app/page.tsx:9:1
+Module not found: Can't resolve '@/app/components/background'
+   7 | import Booking from "@/app/components/booksection";
+   8 | import Footer from "@/app/components/footer";
+>  9 | import Particles from "@/app/components/background";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
 
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
+Import map: aliased to relative './app/components/background' inside of [project]/
 
 https://nextjs.org/docs/messages/module-not-found
-[00:09:58.637] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.638] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.639] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.639] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.640] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.641] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.641] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.641] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.642] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.647] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.648] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.649] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.651] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.652] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.653] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.655] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.656] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.656] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.656] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.657] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.658] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.659] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.659] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.660] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.661] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.661] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.661] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.662] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.662] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.662] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.663] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.663] Server  ERROR    ⨯ ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:09:58.668] Server  LOG      ✓ Compiled in 51ms
-[00:09:59.538] Browser ERROR   ./app/components/navbar.js:4:1
-Module not found: Can't resolve 'lucide-React'
-  2 | import { useState } from "react";
-  3 | import Image from "next/image";
-> 4 | import { Phone } from "lucide-React";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  5 |
-  6 | export default function Navbar() {
-  7 |   const [isOpen, setIsOpen] = useState(false);
-
-Import trace:
-  Server Component:
-    ./app/components/navbar.js
-    ./app/page.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:10:35.494] Server  LOG      ✓ Compiled in 30ms
-[00:11:04.459] Server  LOG      ✓ Compiled in 80ms
-[00:11:11.970] Server  LOG      ✓ Compiled in 31ms
-[00:11:30.952] Server  LOG      ✓ Compiled in 29ms
-[00:11:31.267] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `div`.  It was passed a child from Navbar.
-[00:11:42.002] Server  LOG      ✓ Compiled in 25ms
-[00:11:48.263] Server  LOG      ✓ Compiled in 32ms
-[00:11:57.494] Server  LOG      ✓ Compiled in 28ms
-[00:12:09.679] Server  LOG      ✓ Compiled in 29ms
-[00:12:10.110] Browser ERROR   uncaughtError: ReferenceError: navItems is not defined
-[00:12:24.183] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:12:24.205] Server  LOG      ✓ Compiled in 24ms
-[00:12:24.441] Server  ERROR    ⨯ ReferenceError: navItems is not defined
-[00:12:24.914] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:12:25.053] Browser ERROR   uncaughtError: ReferenceError: navItems is not defined
-[00:13:06.149] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:13:06.167] Server  LOG      ✓ Compiled in 25ms
-[00:13:06.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:06.964] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:13:24.543] Server  LOG      ✓ Compiled in 24ms
-[00:13:30.865] Server  LOG      ✓ Compiled in 41ms
-[00:13:39.108] Server  LOG      ✓ Compiled in 26ms
-[00:13:47.506] Server  LOG      ✓ Compiled in 12ms
-[00:15:23.318] Server  LOG      ✓ Compiled in 99ms
-[00:15:29.254] Server  LOG      ✓ Compiled in 30ms
-[00:15:55.066] Server  LOG      ✓ Compiled in 27ms
-[00:16:19.104] Server  LOG      ✓ Compiled in 43ms
-[00:16:23.167] Server  LOG      ✓ Compiled in 44ms
-[00:16:29.255] Server  LOG      ✓ Compiled in 42ms
-[00:16:37.248] Server  LOG      ✓ Compiled in 31ms
-[00:16:43.346] Server  LOG      ✓ Compiled in 35ms
-[00:17:26.447] Server  LOG      ✓ Compiled in 35ms
-[00:17:31.620] Server  LOG      ✓ Compiled in 29ms
-[00:17:36.480] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:17:42.337] Server  LOG      ✓ Compiled in 35ms
-[00:17:46.299] Server  LOG      ✓ Compiled in 57ms
-[00:17:52.662] Server  LOG      ✓ Compiled in 22ms
-[00:18:06.041] Server  LOG      ✓ Compiled in 39ms
-[00:18:13.838] Server  LOG      ✓ Compiled in 41ms
-[00:18:34.461] Server  LOG      ✓ Compiled in 37ms
-[00:18:40.137] Server  LOG      ✓ Compiled in 35ms
-[00:18:53.813] Server  LOG      ✓ Compiled in 28ms
-[00:19:34.271] Server  LOG      ✓ Compiled in 40ms
-[00:19:43.953] Server  LOG      ✓ Compiled in 40ms
-[00:19:59.691] Server  LOG      ✓ Compiled in 33ms
-[00:23:54.852] Server  LOG      ✓ Compiled in 462ms
-[00:23:55.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:05.355] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:24:05.359] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:24:36.943] Server  LOG      ✓ Compiled in 37ms
-[00:26:08.134] Server  LOG      ✓ Compiled in 216ms
-[00:26:50.354] Server  LOG      ✓ Compiled in 89ms
-[00:27:18.921] Server  LOG      ✓ Compiled in 37ms
-[00:27:23.908] Server  LOG      ✓ Compiled in 19ms
-[00:27:31.743] Server  LOG      ✓ Compiled in 34ms
-[00:27:42.752] Server  LOG      ✓ Compiled in 62ms
-[00:27:45.826] Server  LOG      ✓ Compiled in 26ms
-[00:28:02.804] Server  LOG      ✓ Compiled in 23ms
-[00:29:32.441] Server  LOG      ✓ Compiled in 119ms
-[00:34:39.000] Server  LOG      ✓ Compiled in 181ms
-[00:34:41.859] Server  LOG      ✓ Compiled in 69ms
-[00:35:45.597] Server  LOG      ✓ Compiled in 150ms
-[00:36:10.264] Server  LOG      ✓ Compiled in 64ms
-[00:36:13.463] Server  LOG      ✓ Compiled in 24ms
+[00:01:00.079] Server  LOG      ✓ Compiled in 201ms
+[00:01:00.990] Server  ERROR    ⨯ ReferenceError: Background is not defined
+[00:01:01.788] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:02.937] Browser ERROR   uncaughtError: ReferenceError: Background is not defined
+[00:01:11.050] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:11.050] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/particles.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:11.051] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:11.056] Server  LOG      ✓ Compiled in 113ms
+[00:01:12.322] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:13.162] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:13.164] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:13.166] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:13.166] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:13.166] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:15.748] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:01:15.751] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:01:15.751] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:01:49.290] Server  LOG      ✓ Compiled in 117ms
+[00:02:02.682] Server  LOG      ✓ Compiled in 123ms
+[00:03:02.920] Server  LOG      ✓ Compiled in 109ms
+[00:04:23.965] Server  LOG      ✓ Compiled in 385ms
+[00:04:25.963] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:04:26.919] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:04:27.001] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null

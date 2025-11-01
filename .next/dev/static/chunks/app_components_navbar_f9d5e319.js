@@ -23,7 +23,7 @@ function Navbar() {
         setIsOpen(!isOpen);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "bg-[#DC9A09]/30 sticky top-0 z-50 font-merriweather w-full h-16",
+        className: "bg-[#DC9A09]/30 sticky top-0 z-80 font-merriweather w-full h-16",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
             children: [
@@ -51,7 +51,7 @@ function Navbar() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex space-x-8",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "bg-[#DC9A09] hover:bg-[#F7C873] text-white px-4 py-2 rounded-lg text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg cursor-pointer font-el-messiri",
+                                className: "bg-[#DC9A09] hover:bg-[#F7C873] text-[#FAEBCD] px-4 py-2 rounded-lg text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg cursor-pointer font-poppins",
                                 children: "Book Now"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/navbar.js",
@@ -110,21 +110,21 @@ function Navbar() {
                                 className: "w-5 h-6 relative flex flex-col justify-center",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `w-5 h-0.5 bg-white rounded-full transition-all duration-300 ease-in-out ${isOpen ? "rotate-45 translate-y-1.5" : ""}`
+                                        className: `w-5 h-0.5 bg-[#FAEBCD] rounded-full transition-all duration-300 ease-in-out ${isOpen ? "rotate-45 translate-y-1.5" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/navbar.js",
                                         lineNumber: 58,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `w-5 h-0.5 bg-white rounded-full mt-1 transition-all duration-300 ease-in-out ${isOpen ? "opacity-0" : ""}`
+                                        className: `w-5 h-0.5 bg-[#FAEBCD] rounded-full mt-1 transition-all duration-300 ease-in-out ${isOpen ? "opacity-0" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/navbar.js",
                                         lineNumber: 64,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `w-5 h-0.5 bg-white rounded-full mt-1 transition-all duration-300 ease-in-out ${isOpen ? "-rotate-45 -translate-y-1.5" : ""}`
+                                        className: `w-5 h-0.5 bg-[#FAEBCD] rounded-full mt-1 transition-all duration-300 ease-in-out ${isOpen ? "-rotate-45 -translate-y-1.5" : ""}`
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/navbar.js",
                                         lineNumber: 70,
@@ -153,7 +153,7 @@ function Navbar() {
                         className: " rounded-2xl mt-2 shadow-lg",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "w-full bg-[#DC9A09] hover:bg-[#FAEBCD] text-[#FAEBCD] px-3 py-2 rounded-md text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg",
+                                className: "w-full bg-[#DC9A09] hover:bg-[#FAEBCD] font-poppins text-[#FAEBCD] px-3 py-2 rounded-md text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg",
                                 children: "Book Now"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/navbar.js",
