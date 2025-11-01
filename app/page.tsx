@@ -14,7 +14,7 @@ export default function Home() {
       {/* Particles as fixed background */}
       <div className="fixed inset-0 w-full h-[100svh] z-10 opacity-50">
         <Particles 
-          className="w-full h-full"
+          className="w-full h-[100svh]"
           particleColors={["#FAEBCD", "#F7C873"]} 
           particleCount={300} 
           particleSpread={10} 

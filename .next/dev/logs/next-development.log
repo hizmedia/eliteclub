@@ -212,3 +212,6 @@
 [00:58:29.258] Browser WARN    Image with src "/placeholder2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:58:29.258] Browser WARN    Image with src "/placeholder3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:58:29.422] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:03:00.283] Server  LOG      ✓ Compiled in 195ms
+[01:03:17.304] Server  LOG      ✓ Compiled in 149ms
+[01:03:26.905] Server  LOG      ✓ Compiled in 84ms

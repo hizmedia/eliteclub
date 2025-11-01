@@ -231,7 +231,7 @@ const Particles = ({
     disableRotation
   ]);
 
-  return <div ref={containerRef} className={`absolute w-full h-96 ${className}`} />;
+  return <div ref={containerRef} className={`absolute w-full h-[100svh] ${className}`} />;
 };
 
 export default Particles;
