@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="relative flex flex-col bg-[#1B1B1B] dark:bg-black">
       {/* Particles as fixed background */}
-      <div className="fixed inset-0 w-full h-full z-10 opacity-50">
+      <div className="fixed inset-0 w-full h-full z-10 opacity-30">
         <Particles 
           className="w-full h-full"
           particleColors={["#FAEBCD", "#F7C873"]} 
