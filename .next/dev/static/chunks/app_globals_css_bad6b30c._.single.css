@@ -607,6 +607,10 @@
     margin-left: auto;
   }
 
+  .box-border {
+    box-sizing: border-box;
+  }
+
   .block {
     display: block;
   }
@@ -775,12 +779,20 @@
     max-width: var(--container-7xl);
   }
 
+  .max-w-full {
+    max-width: 100%;
+  }
+
   .max-w-md {
     max-width: var(--container-md);
   }
 
   .max-w-sm {
     max-width: var(--container-sm);
+  }
+
+  .min-w-0 {
+    min-width: calc(var(--spacing) * 0);
   }
 
   .flex-shrink-0, .shrink-0 {

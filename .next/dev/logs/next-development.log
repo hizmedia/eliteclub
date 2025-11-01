@@ -1,11 +1,12 @@
-[00:00:01.098] Server  LOG      ✓ Ready in 849ms
-[00:00:25.064] Server  LOG      ○ Compiling / ...
-[00:00:29.873] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:30.992] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
-[00:00:30.994] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
-[00:00:30.995] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
-[00:00:31.520] Browser WARN    Image with src "/placeholder1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.521] Browser WARN    Image with src "/placeholder2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.521] Browser WARN    Image with src "/placeholder3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.581] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:38.557] Server  LOG      ✓ Compiled in 489ms
+[00:00:01.743] Server  LOG      ✓ Ready in 1505ms
+[00:00:02.067] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.488] Server  LOG      ○ Compiling / ...
+[00:00:14.129] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:00:14.181] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:00:14.199] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:00:20.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.365] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:38.839] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:00:38.846] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:00:38.847] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:00:38.853] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null

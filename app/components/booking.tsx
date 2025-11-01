@@ -71,7 +71,7 @@ const ContactComponent = () => {
     <div className="w-full max-w-5xl mx-auto mt-2 px-2 2xl:px-4 font-elmessiri z-20">
       {/* Mobile Layout */}
       <div className="md:hidden">
-        <div className="bg-[#DC9A09] rounded-lg p-3 shadow-2xl">
+        <div className="bg-[#DC9A09] rounded-lg p-3 shadow-2xl overflow-hidden">
           <div className="space-y-3 text-[#FAEBCD] text-sm">
             {/* Name Input */}
             <div>
@@ -131,8 +131,8 @@ const ContactComponent = () => {
             </div>
 
             {/* Date and Time */}
-            <div className="grid grid-cols-2 gap-3">
-              <div>
+            <div className="grid grid-cols-2 gap-3 overflow-hidden">
+              <div className="min-w-0 overflow-hidden">
                 <label className="block text-[#FAEBCD] font-semibold mb-1.5 text-sm">
                   Preferred Date
                 </label>
@@ -140,11 +140,12 @@ const ContactComponent = () => {
                   type="date"
                   value={preferredDate}
                   onChange={(e) => setPreferredDate(e.target.value)}
-                  className="w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
+                  className="w-full max-w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm box-border"
+                  style={{ minWidth: 0, maxWidth: '100%' }}
                 />
               </div>
 
-              <div>
+              <div className="min-w-0 overflow-hidden">
                 <label className="block text-[#FAEBCD] font-semibold mb-1.5 text-sm">
                   Preferred Time
                 </label>
@@ -152,7 +153,8 @@ const ContactComponent = () => {
                   type="time"
                   value={preferredTime}
                   onChange={(e) => setPreferredTime(e.target.value)}
-                  className="w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
+                  className="w-full max-w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm box-border"
+                  style={{ minWidth: 0, maxWidth: '100%' }}
                 />
               </div>
             </div>
