@@ -395,9 +395,6 @@ const ContactComponent = ()=>{
                                                 type: "date",
                                                 value: preferredDate,
                                                 onChange: (e)=>setPreferredDate(e.target.value),
-                                                style: {
-                                                    colorScheme: 'dark'
-                                                },
                                                 className: "w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/booking.tsx",
@@ -417,26 +414,23 @@ const ContactComponent = ()=>{
                                                 children: "Preferred Time"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/booking.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 148,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "time",
                                                 value: preferredTime,
                                                 onChange: (e)=>setPreferredTime(e.target.value),
-                                                style: {
-                                                    colorScheme: 'dark'
-                                                },
                                                 className: "w-full px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-sm"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/booking.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 151,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/booking.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 147,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
@@ -455,19 +449,19 @@ const ContactComponent = ()=>{
                                             className: "w-5 h-5 mr-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/booking.tsx",
-                                            lineNumber: 168,
+                                            lineNumber: 166,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         "Book Now!"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/booking.tsx",
-                                    lineNumber: 164,
+                                    lineNumber: 162,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/booking.tsx",
-                                lineNumber: 163,
+                                lineNumber: 161,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -498,12 +492,12 @@ const ContactComponent = ()=>{
                                 children: "Book Our Facility"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/booking.tsx",
-                                lineNumber: 181,
+                                lineNumber: 179,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/app/components/booking.tsx",
-                            lineNumber: 180,
+                            lineNumber: 178,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -522,7 +516,7 @@ const ContactComponent = ()=>{
                                                             children: "Your Name"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 194,
+                                                            lineNumber: 192,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -533,13 +527,13 @@ const ContactComponent = ()=>{
                                                             className: "w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-xs md:text-sm lg:text-base"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 197,
+                                                            lineNumber: 195,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/booking.tsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 191,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -550,7 +544,7 @@ const ContactComponent = ()=>{
                                                             children: "Choose Activity"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 208,
+                                                            lineNumber: 206,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -565,7 +559,7 @@ const ContactComponent = ()=>{
                                                                             children: selectedService
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/components/booking.tsx",
-                                                                            lineNumber: 216,
+                                                                            lineNumber: 214,
                                                                             columnNumber: 23
                                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -580,18 +574,18 @@ const ContactComponent = ()=>{
                                                                                 d: "M19 9l-7 7-7-7"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/components/booking.tsx",
-                                                                                lineNumber: 225,
+                                                                                lineNumber: 223,
                                                                                 columnNumber: 25
                                                                             }, ("TURBOPACK compile-time value", void 0))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/app/components/booking.tsx",
-                                                                            lineNumber: 217,
+                                                                            lineNumber: 215,
                                                                             columnNumber: 23
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/components/booking.tsx",
-                                                                    lineNumber: 212,
+                                                                    lineNumber: 210,
                                                                     columnNumber: 21
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 showServiceDropdown && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -602,30 +596,30 @@ const ContactComponent = ()=>{
                                                                             children: service
                                                                         }, index, false, {
                                                                             fileName: "[project]/app/components/booking.tsx",
-                                                                            lineNumber: 236,
+                                                                            lineNumber: 234,
                                                                             columnNumber: 27
                                                                         }, ("TURBOPACK compile-time value", void 0)))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/components/booking.tsx",
-                                                                    lineNumber: 234,
+                                                                    lineNumber: 232,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 211,
+                                                            lineNumber: 209,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/booking.tsx",
-                                                    lineNumber: 207,
+                                                    lineNumber: 205,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/booking.tsx",
-                                            lineNumber: 191,
+                                            lineNumber: 189,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -638,26 +632,23 @@ const ContactComponent = ()=>{
                                                             children: "Preferred Date"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 254,
+                                                            lineNumber: 252,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                             type: "date",
                                                             value: preferredDate,
                                                             onChange: (e)=>setPreferredDate(e.target.value),
-                                                            style: {
-                                                                colorScheme: 'dark'
-                                                            },
                                                             className: "w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-xs md:text-sm lg:text-base"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 257,
+                                                            lineNumber: 255,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/booking.tsx",
-                                                    lineNumber: 253,
+                                                    lineNumber: 251,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -667,38 +658,35 @@ const ContactComponent = ()=>{
                                                             children: "Preferred Time"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 268,
+                                                            lineNumber: 265,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                             type: "time",
                                                             value: preferredTime,
                                                             onChange: (e)=>setPreferredTime(e.target.value),
-                                                            style: {
-                                                                colorScheme: 'dark'
-                                                            },
                                                             className: "w-full px-2 lg:px-2.5 py-1.5 lg:py-2 xl:py-2.5 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] focus:outline-none focus:ring-2 focus:ring-[#FAEBCD]/30 focus:border-transparent text-xs md:text-sm lg:text-base"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/components/booking.tsx",
-                                                            lineNumber: 271,
+                                                            lineNumber: 268,
                                                             columnNumber: 19
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/components/booking.tsx",
-                                                    lineNumber: 267,
+                                                    lineNumber: 264,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/booking.tsx",
-                                            lineNumber: 251,
+                                            lineNumber: 249,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/booking.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 187,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -713,41 +701,41 @@ const ContactComponent = ()=>{
                                                     className: "w-3 h-3 lg:w-4 lg:h-4 xl:w-5 xl:h-5 mr-1.5"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/booking.tsx",
-                                                    lineNumber: 289,
+                                                    lineNumber: 285,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "Book Now!"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/components/booking.tsx",
-                                            lineNumber: 285,
+                                            lineNumber: 281,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/booking.tsx",
-                                        lineNumber: 284,
+                                        lineNumber: 280,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/app/components/booking.tsx",
-                                    lineNumber: 283,
+                                    lineNumber: 279,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/booking.tsx",
-                            lineNumber: 187,
+                            lineNumber: 185,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/booking.tsx",
-                    lineNumber: 178,
+                    lineNumber: 176,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/components/booking.tsx",
-                lineNumber: 177,
+                lineNumber: 175,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

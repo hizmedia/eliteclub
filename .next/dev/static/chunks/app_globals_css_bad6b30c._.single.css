@@ -1344,12 +1344,6 @@
     color: var(--color-gray-300);
   }
 
-  .scheme-dark {
-    --lightningcss-light: ;
-    --lightningcss-dark: initial;
-    color-scheme: dark;
-  }
-
   .opacity-0 {
     opacity: 0;
   }
