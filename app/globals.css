@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* ------------------------------
+   🌗 Color & Font Variables
+------------------------------ */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Font variables injected by next/font */
+  --font-geist-sans: var(--font-geist-sans);
+  --font-geist-mono: var(--font-geist-mono);
+  --font-el-messiri: var(--font-el-messiri);
+  --font-poppins: var(--font-poppins);
+
+  /* Default font assignments */
+  --font-sans: var(--font-poppins);
+  --font-elmessiri: var(--font-el-messiri);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* ------------------------------
+   🎨 Theme configuration
+------------------------------ */
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Tailwind font family utilities */
+  --font-sans: var(--font-poppins), sans-serif;
+  --font-elmessiri: var(--font-el-messiri), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+/* ------------------------------
+   🌙 Dark mode
+------------------------------ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* ------------------------------
+   🩶 Base Styles
+------------------------------ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------
+   🌐 Language / Font Utilities
+------------------------------ */
+[lang="ar"],
+.arabic {
+  font-family: var(--font-elmessiri);
+  direction: rtl;
+}
+
+/* ------------------------------
+   🧩 Tailwind base overrides
+------------------------------ */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+  }
+}
