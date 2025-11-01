@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Sparkles } from 'lucide-react';
+import { Sparkles } from "lucide-react";
 
 const CustomerStoryCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,7 +29,7 @@ const CustomerStoryCarousel = () => {
     {
       id: 3,
       name: "Mohammad Siyam",
-      text: "Ever since we joined Elite Club, our weekends have completely changed, mashallah. The atmosphere is peaceful and family-oriented — my children can swim and play safely while I unwind over a cup of coffee or a friendly billiards match. You truly feel the sense of community here, everyone greets you with warmth and respect. Inshallah, we’ll continue to spend many more beautiful moments here with family and friends.",
+      text: "Ever since we joined Elite Club, our weekends have completely changed, mashallah. The atmosphere is peaceful and family-oriented — my children can swim and play safely while I unwind over a cup of coffee or a friendly billiards match. You truly feel the sense of community here, everyone greets you with warmth and respect. Inshallah, we'll continue to spend many more beautiful moments here with family and friends.",
       image:
         "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022543/CEO-male_wbub1d.png",
     },
@@ -50,7 +50,7 @@ const CustomerStoryCarousel = () => {
     {
       id: 6,
       name: "Layla Al Suwaidi",
-      text: "From the first day I visited Elite Club, I felt a genuine sense of belonging, mashallah. The events, the people, and even the small details reflect a culture of care and respect. I’ve made so many friendships here that feel like family. Inshallah, I hope this place continues to be a space where hearts connect and memories are made for generations to come.",
+      text: "From the first day I visited Elite Club, I felt a genuine sense of belonging, mashallah. The events, the people, and even the small details reflect a culture of care and respect. I've made so many friendships here that feel like family. Inshallah, I hope this place continues to be a space where hearts connect and memories are made for generations to come.",
       image:
         "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022767/Girl_t6qehr.png",
     },
@@ -107,9 +107,9 @@ const CustomerStoryCarousel = () => {
     testimonials.forEach((testimonial, index) => {
       // Calculate angle for even distribution
       const angle = (360 / testimonials.length) * index;
-      // Vary the orbit radius for visual interest - reduced sizes
+      // Vary the orbit radius for visual interest - maximum spacing
       const orbitLevel = index % 3; // 0, 1, or 2
-      const orbitRadius = orbitLevel === 0 ? 110 : orbitLevel === 1 ? 85 : 130;
+      const orbitRadius = orbitLevel === 0 ? 150 : orbitLevel === 1 ? 170 : 230;
       positions.push({ testimonial, angle, orbitRadius, index });
     });
 
@@ -153,11 +153,10 @@ const CustomerStoryCarousel = () => {
               Customer's Story
             </h2>
             <p className="text-[#FAEBCD] text-sm md:text-base font-poppins">
-            see real results from our members
-          </p>
+              see real results from our members
+            </p>
             <Sparkles className="text-[#F7C873] w-3 h-3 md:w-6 md:h-6 ml-auto -mt-4" />
           </div>
-          
         </div>
 
         {/* Main Content */}
@@ -179,7 +178,7 @@ const CustomerStoryCarousel = () => {
 
             {/* Left Side - Solar System Orbit */}
             <div className="order-2 md:order-1 flex justify-center items-center">
-              <div className="relative w-64 h-64 md:w-80 md:h-80">
+              <div className="relative w-65 h-65 md:w-80 md:h-80">
                 {/* Center Logo */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
                   <div className="w-16 h-16 md:w-20 md:h-20 rounded-full  overflow-hidden shadow-lg">
@@ -218,10 +217,11 @@ const CustomerStoryCarousel = () => {
                     return (
                       <div
                         key={testimonial.id}
-                        className={`absolute ${size} rounded-full ${borderColor}  overflow-hidden transform -translate-x-1/2 -translate-y-1/2 shadow-lg transition-all duration-300 cursor-pointer hover:scale-110`}
+                        className={`absolute ${size} rounded-full ${borderColor} overflow-hidden shadow-lg cursor-pointer hover:scale-110 transition-all duration-300`}
                         style={{
                           left: `${x}%`,
                           top: `${y}%`,
+                          transform: "translate(-50%, -50%)",
                         }}
                         onClick={() => setCurrentIndex(index)}
                       >

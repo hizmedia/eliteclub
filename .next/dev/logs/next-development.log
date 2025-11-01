@@ -10,3 +10,95 @@
 [00:00:38.846] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
 [00:00:38.847] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
 [00:00:38.853] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:02:02.317] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:02:02.349] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:11:02.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:03.050] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:03.050] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:03.050] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:03.050] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:03.507] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:11:03.509] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:11:03.536] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:11:09.274] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:11:09.275] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:11:09.277] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:11:10.073] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:21.897] Server  LOG      ✓ Compiled in 369ms
+[00:15:06.938] Server  LOG      ✓ Compiled in 398ms
+[00:15:17.397] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:15:17.399] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:15:17.400] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:15:17.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:18.398] Browser WARN    Image with src "/placeholder1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:18.399] Browser WARN    Image with src "/placeholder2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:18.399] Browser WARN    Image with src "/placeholder3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:18.543] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:18.543] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:18.543] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:18.543] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:27.065] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:16:27.067] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:16:27.080] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:16:27.185] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:16:27.621] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:16:27.673] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:16:28.495] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:29.855] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:16:29.882] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:16:30.035] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:16:30.104] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:30.104] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:30.104] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:30.104] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:18:42.694] Server  LOG      ✓ Compiled in 161ms
+[00:18:59.623] Server  LOG      ✓ Compiled in 116ms
+[00:23:50.913] Server  LOG      ✓ Compiled in 266ms
+[00:24:01.313] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:24:01.317] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:24:01.318] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:24:01.461] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:12.709] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:24:12.710] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:24:12.719] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:24:14.287] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:24:14.287] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:24:14.293] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:24:14.345] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:24:14.345] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:24:14.346] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:26:09.238] Server  LOG      ✓ Compiled in 119ms
+[00:26:53.351] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:26:53.355] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:26:53.363] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:26:53.812] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:26:53.814] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:26:53.839] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:26:54.242] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:26:54.249] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:26:54.322] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:27:12.429] Server  LOG      ✓ Compiled in 110ms
+[00:27:56.228] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:27:56.232] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:27:56.233] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:28:04.279] Server  LOG      ✓ Compiled in 215ms
+[00:28:08.643] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:28:08.645] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:28:08.646] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:28:32.123] Server  LOG      ✓ Compiled in 168ms
+[00:28:41.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:42.240] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:28:42.242] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:28:42.244] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:28:43.493] Browser WARN    Image with src "/placeholder1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:43.493] Browser WARN    Image with src "/placeholder2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:43.493] Browser WARN    Image with src "/placeholder3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:43.643] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:29:16.425] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:29:16.426] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:29:16.428] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:29:17.111] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:29:17.112] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:29:17.125] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:29:17.274] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:29:39.243] Server  LOG      ✓ Compiled in 133ms

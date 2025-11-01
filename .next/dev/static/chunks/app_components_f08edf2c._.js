@@ -2013,7 +2013,7 @@ const CustomerStoryCarousel = ()=>{
         {
             id: 3,
             name: "Mohammad Siyam",
-            text: "Ever since we joined Elite Club, our weekends have completely changed, mashallah. The atmosphere is peaceful and family-oriented — my children can swim and play safely while I unwind over a cup of coffee or a friendly billiards match. You truly feel the sense of community here, everyone greets you with warmth and respect. Inshallah, we’ll continue to spend many more beautiful moments here with family and friends.",
+            text: "Ever since we joined Elite Club, our weekends have completely changed, mashallah. The atmosphere is peaceful and family-oriented — my children can swim and play safely while I unwind over a cup of coffee or a friendly billiards match. You truly feel the sense of community here, everyone greets you with warmth and respect. Inshallah, we'll continue to spend many more beautiful moments here with family and friends.",
             image: "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022543/CEO-male_wbub1d.png"
         },
         {
@@ -2031,7 +2031,7 @@ const CustomerStoryCarousel = ()=>{
         {
             id: 6,
             name: "Layla Al Suwaidi",
-            text: "From the first day I visited Elite Club, I felt a genuine sense of belonging, mashallah. The events, the people, and even the small details reflect a culture of care and respect. I’ve made so many friendships here that feel like family. Inshallah, I hope this place continues to be a space where hearts connect and memories are made for generations to come.",
+            text: "From the first day I visited Elite Club, I felt a genuine sense of belonging, mashallah. The events, the people, and even the small details reflect a culture of care and respect. I've made so many friendships here that feel like family. Inshallah, I hope this place continues to be a space where hearts connect and memories are made for generations to come.",
             image: "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022767/Girl_t6qehr.png"
         },
         {
@@ -2090,9 +2090,9 @@ const CustomerStoryCarousel = ()=>{
         testimonials.forEach((testimonial, index)=>{
             // Calculate angle for even distribution
             const angle = 360 / testimonials.length * index;
-            // Vary the orbit radius for visual interest - reduced sizes
+            // Vary the orbit radius for visual interest - maximum spacing
             const orbitLevel = index % 3; // 0, 1, or 2
-            const orbitRadius = orbitLevel === 0 ? 110 : orbitLevel === 1 ? 85 : 130;
+            const orbitRadius = orbitLevel === 0 ? 150 : orbitLevel === 1 ? 170 : 230;
             positions.push({
                 testimonial,
                 angle,
@@ -2221,23 +2221,23 @@ const CustomerStoryCarousel = ()=>{
                                             d: "M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/testimonials.jsx",
-                                            lineNumber: 175,
+                                            lineNumber: 174,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, i, false, {
                                         fileName: "[project]/app/components/testimonials.jsx",
-                                        lineNumber: 169,
+                                        lineNumber: 168,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/testimonials.jsx",
-                                lineNumber: 167,
+                                lineNumber: 166,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "order-2 md:order-1 flex justify-center items-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative w-64 h-64 md:w-80 md:h-80",
+                                    className: "relative w-65 h-65 md:w-80 md:h-80",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10",
@@ -2249,17 +2249,17 @@ const CustomerStoryCarousel = ()=>{
                                                     className: "w-full h-full object-cover"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/components/testimonials.jsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 185,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/testimonials.jsx",
-                                                lineNumber: 185,
+                                                lineNumber: 184,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/testimonials.jsx",
-                                            lineNumber: 184,
+                                            lineNumber: 183,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         orbitPositions.map(({ testimonial, angle, orbitRadius, index })=>{
@@ -2271,10 +2271,11 @@ const CustomerStoryCarousel = ()=>{
                                             const size = isActive ? "w-16 h-16 md:w-20 md:h-20" : "w-12 h-12 md:w-14 md:h-14";
                                             const borderColor = isActive ? "border-4 border-[#DC9A09]" : "border-2 border-gray-300";
                                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: `absolute ${size} rounded-full ${borderColor}  overflow-hidden transform -translate-x-1/2 -translate-y-1/2 shadow-lg transition-all duration-300 cursor-pointer hover:scale-110`,
+                                                className: `absolute ${size} rounded-full ${borderColor} overflow-hidden shadow-lg cursor-pointer hover:scale-110 transition-all duration-300`,
                                                 style: {
                                                     left: `${x}%`,
-                                                    top: `${y}%`
+                                                    top: `${y}%`,
+                                                    transform: "translate(-50%, -50%)"
                                                 },
                                                 onClick: ()=>setCurrentIndex(index),
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -2288,7 +2289,7 @@ const CustomerStoryCarousel = ()=>{
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, testimonial.id, false, {
                                                 fileName: "[project]/app/components/testimonials.jsx",
-                                                lineNumber: 219,
+                                                lineNumber: 218,
                                                 columnNumber: 23
                                             }, ("TURBOPACK compile-time value", void 0));
                                         }),
@@ -2317,12 +2318,12 @@ const CustomerStoryCarousel = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/components/testimonials.jsx",
-                                    lineNumber: 182,
+                                    lineNumber: 181,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/app/components/testimonials.jsx",
-                                lineNumber: 181,
+                                lineNumber: 180,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2455,12 +2456,12 @@ const CustomerStoryCarousel = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/testimonials.jsx",
-                        lineNumber: 165,
+                        lineNumber: 164,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/app/components/testimonials.jsx",
-                    lineNumber: 164,
+                    lineNumber: 163,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
