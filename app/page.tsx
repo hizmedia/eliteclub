@@ -10,9 +10,9 @@ import Particles from "@/app/components/particles";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col bg-[#1B1B1B] dark:bg-black">
+    <div className="relative flex flex-col bg-[#1B1B1B]">
       {/* Particles as fixed background */}
-      <div className="fixed inset-0 w-full h-100 z-10 opacity-30">
+      <div className="fixed inset-0 w-full h-[100dvh] z-10 opacity-50">
         <Particles 
           className="w-full h-full"
           particleColors={["#FAEBCD", "#F7C873"]} 

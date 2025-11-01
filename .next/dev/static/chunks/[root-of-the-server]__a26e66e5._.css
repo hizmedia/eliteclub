@@ -1112,6 +1112,34 @@
     height: calc(var(--spacing) * 100);
   }
 
+  .h-120 {
+    height: calc(var(--spacing) * 120);
+  }
+
+  .h-200 {
+    height: calc(var(--spacing) * 200);
+  }
+
+  .h-300 {
+    height: calc(var(--spacing) * 300);
+  }
+
+  .h-600 {
+    height: calc(var(--spacing) * 600);
+  }
+
+  .h-1000 {
+    height: calc(var(--spacing) * 1000);
+  }
+
+  .h-\[100dvh\] {
+    height: 100dvh;
+  }
+
+  .h-\[2000px\] {
+    height: 2000px;
+  }
+
   .h-full {
     height: 100%;
   }
@@ -1799,6 +1827,10 @@
 
   .opacity-30 {
     opacity: .3;
+  }
+
+  .opacity-50 {
+    opacity: .5;
   }
 
   .opacity-60 {

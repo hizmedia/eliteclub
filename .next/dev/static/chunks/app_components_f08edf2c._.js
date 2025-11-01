@@ -2332,9 +2332,9 @@ const CustomerStoryCarousel = ()=>{
                                     className: "w-full max-w-md",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "bg-[#434343] rounded-lg p-4 shadow-xl transition-all duration-500",
+                                            className: "bg-[#434343] rounded-lg p-4 shadow-xl transition-all duration-500 h-60",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-[#FAEBCD] text-xs font-poppins leading-relaxed",
+                                                className: "text-[#FAEBCD] text-xs font-poppins leading-relaxed text-center",
                                                 children: [
                                                     '"',
                                                     currentTestimonial.text,

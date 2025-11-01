@@ -249,8 +249,8 @@ const CustomerStoryCarousel = () => {
             {/* Right Side - Testimonial Card */}
             <div className="order-1 md:order-2 flex flex-col items-center md:items-start">
               <div className="w-full max-w-md">
-                <div className="bg-[#434343] rounded-lg p-4 shadow-xl transition-all duration-500">
-                  <p className="text-[#FAEBCD] text-xs font-poppins leading-relaxed">
+                <div className="bg-[#434343] rounded-lg p-4 shadow-xl transition-all duration-500 h-60">
+                  <p className="text-[#FAEBCD] text-xs font-poppins leading-relaxed text-center">
                     "{currentTestimonial.text}"
                   </p>
                 </div>

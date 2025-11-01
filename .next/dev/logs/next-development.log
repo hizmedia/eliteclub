@@ -102,3 +102,28 @@
 [00:29:17.125] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
 [00:29:17.274] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
 [00:29:39.243] Server  LOG      ✓ Compiled in 133ms
+[00:36:32.239] Server  LOG      ✓ Compiled in 273ms
+[00:37:00.233] Server  LOG      ✓ Compiled in 145ms
+[00:37:29.276] Server  LOG      ✓ Compiled in 163ms
+[00:38:03.480] Server  LOG      ✓ Compiled in 134ms
+[00:40:02.541] Server  LOG      ✓ Compiled in 136ms
+[00:40:36.031] Server  LOG      ✓ Compiled in 131ms
+[00:40:47.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:48.024] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:40:48.062] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:40:48.082] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:40:49.287] Browser WARN    Image with src "/placeholder1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:49.326] Browser WARN    Image with src "/placeholder2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:49.326] Browser WARN    Image with src "/placeholder3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:49.478] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:40:49.478] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:49.478] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:40:49.478] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:41:09.815] Server  LOG      ✓ Compiled in 96ms
+[00:41:15.955] Server  LOG      ✓ Compiled in 44ms
+[00:41:20.439] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:41:20.467] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder2.jpg" "received" null
+[00:41:20.468] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder3.jpg" "received" null
+[00:41:20.469] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/placeholder1.jpg" "received" null
+[00:41:42.980] Server  LOG      ✓ Compiled in 68ms
+[00:42:04.487] Server  LOG      ✓ Compiled in 116ms
