@@ -12,15 +12,16 @@ export default function Home() {
   return (
     <div className="relative flex flex-col bg-[#1B1B1B] dark:bg-black">
       {/* Particles as fixed background */}
-      <div className="fixed inset-0 w-full h-full opacity-50">
-        <Particles
-          particleColors={["#FAEBCD", "#F7C873"]}
-          particleCount={300}
-          particleSpread={10}
-          speed={0.1}
-          particleBaseSize={100}
-          moveParticlesOnHover={true}
-          alphaParticles={false}
+      <div className="fixed inset-0 w-full h-full z-10 opacity-50">
+        <Particles 
+          className="w-full h-full"
+          particleColors={["#FAEBCD", "#F7C873"]} 
+          particleCount={300} 
+          particleSpread={10} 
+          speed={0.1} 
+          particleBaseSize={100} 
+          moveParticlesOnHover={true} 
+          alphaParticles={false} 
           disableRotation={false}
         />
       </div>
