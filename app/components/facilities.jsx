@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Carousel from "@/app/components/carousel";
 import { Sparkles } from "lucide-react";
+import { Link } from "react-scroll";
 
 export default function Facilities() {
   return (
@@ -33,12 +34,19 @@ export default function Facilities() {
       </div>
 
       <div className="relative z-10 w-full h-full px-2">
-          <Carousel autoplay={true} autoplayDelay={3000} pauseOnHover={true} />
+        <Carousel autoplay={true} autoplayDelay={3000} pauseOnHover={true} />
       </div>
       <div className="mx-auto max-w-7xl w-full z-10 px-4 py-4">
-      <button className=" p-2 bg-[#DC9A09] rounded-lg font-elmessiri font-bold w-full text-[#FAEBCD] text-lg md:text-2xl">
-        Book Now!
-      </button>
+        <Link
+          to="booking"
+          smooth={true}
+          duration={600}
+          offset={-80} // useful if navbar overlaps section
+        >
+          <button className=" p-2 bg-[#DC9A09] rounded-lg font-elmessiri font-bold w-full text-[#FAEBCD] text-lg md:text-2xl cursor-pointer">
+            Book Now!
+          </button>
+        </Link>
       </div>
     </section>
   );

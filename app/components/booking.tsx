@@ -41,7 +41,7 @@ const ContactComponent = () => {
 
   const handleWhatsAppClick = () => {
     const currentService = serviceRef.current;
-    const phoneNumber = "447404730923";
+    const phoneNumber = "97474091133";
 
     let message = "Hi, I'd like to book an appointment for your Activity.";
 
@@ -51,7 +51,7 @@ const ContactComponent = () => {
       preferredDate ||
       preferredTime
     ) {
-      message = "Hi, I'd like to book an appointment with the following details:\n\n";
+      message = "Hi, I'd like to book activity with the following details:\n\n";
 
       if (customerName) message += `Name: ${customerName}\n`;
       if (currentService !== "Choose Activity")

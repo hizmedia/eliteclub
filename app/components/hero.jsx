@@ -16,7 +16,7 @@ export default function Hero() {
       />
 
       {/* Gradient overlay - fades video to transparent at bottom */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black z-0 bottom-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1B1B1B]/50 to-[#1B1B1B] z-0 bottom-0"></div>
 
       {/* 📜 Content */}
       <div className="relative z-10 px-2 py-10 lg:px-10">

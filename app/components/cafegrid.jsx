@@ -9,7 +9,7 @@ export default function CafeImageGrid() {
         <div className="flex flex-col gap-2">
           <div className="bg-[#F5E6D3] rounded-lg aspect-[4/3] relative overflow-hidden">
             <Image
-              src="/placeholder1.jpg"
+              src="https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg"
               alt="Cafe image 1"
               fill
               className="object-cover"
@@ -17,7 +17,7 @@ export default function CafeImageGrid() {
           </div>
           <div className="bg-[#F5E6D3] rounded-lg aspect-[4/3] relative overflow-hidden">
             <Image
-              src="/placeholder2.jpg"
+              src="https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg"
               alt="Cafe image 2"
               fill
               className="object-cover"
@@ -27,7 +27,7 @@ export default function CafeImageGrid() {
         {/* Right column - 1 tall image */}
         <div className="bg-[#F5E6D3] rounded-lg relative overflow-hidden">
           <Image
-            src="/placeholder3.jpg"
+            src="https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg"
             alt="Cafe image 3"
             fill
             className="object-cover"

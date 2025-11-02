@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Phone } from "lucide-react";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,18 +26,27 @@ export default function Navbar() {
           </div>
           {/* Center - Nav Links */}
           <div className="flex space-x-8">
-            <button className="bg-[#DC9A09] hover:bg-[#F7C873] text-[#FAEBCD] px-4 py-2 rounded-lg text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg cursor-pointer font-poppins">
-              Book Now
-            </button>
+            <Link
+              to="booking"
+              smooth={true}
+              duration={600}
+              offset={-80} // useful if navbar overlaps section
+            >
+              <button className="bg-[#DC9A09] hover:bg-[#F7C873] text-[#FAEBCD] px-4 py-2 rounded-lg text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg cursor-pointer font-poppins">
+                Book Now
+              </button>
+            </Link>
           </div>
         </div>
 
         {/* Mobile Navbar */}
         <div className="flex justify-between items-center h-16 md:hidden">
           {/* Left - Phone Icon */}
-          <button className="text-[#F8F8F8] text-center transition-colors duration-200">
-            <Phone size={20} />
-          </button>
+          <a href="tel:+9747409113">
+            <button className="text-[#F8F8F8] text-center transition-colors duration-200 hover:text-[#F7C873]">
+              <Phone size={20} />
+            </button>
+          </a>
 
           {/* Center - Logo */}
           <div className="relative h-7 w-7">
@@ -83,10 +93,16 @@ export default function Navbar() {
           } overflow-hidden`}
         >
           <div className=" rounded-2xl mt-2 shadow-lg">
-            <button className="w-full bg-[#DC9A09] hover:bg-[#FAEBCD] font-poppins text-[#FAEBCD] px-3 py-2 rounded-md text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg">
-              Book Now
-            </button>
-
+            <Link
+              to="booking"
+              smooth={true}
+              duration={600}
+              offset={-80} // useful if navbar overlaps section
+            >
+              <button className="w-full bg-[#DC9A09] hover:bg-[#FAEBCD] font-poppins text-[#FAEBCD] px-3 py-2 rounded-md text-base font-bold transition-colors duration-200 shadow-md hover:shadow-lg">
+                Book Now
+              </button>
+            </Link>
             <div className="pt-2"></div>
           </div>
         </div>
