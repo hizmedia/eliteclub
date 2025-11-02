@@ -6,6 +6,7 @@ import {
   Poppins,
 } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 // Font setup
 const geistSans = Geist({
@@ -54,6 +55,7 @@ export default function RootLayout({
         `}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
