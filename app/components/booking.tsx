@@ -70,7 +70,7 @@ const ContactComponent = () => {
   return (
     <div className="w-full max-w-5xl mx-auto mt-2 px-2 2xl:px-4 font-elmessiri z-20">
       {/* Mobile Layout */}
-      <div className="md:hidden">
+      <div className="md:hidden relative">
         <div className="bg-[#DC9A09] rounded-lg p-3 shadow-2xl overflow-hidden">
           <div className="space-y-3 text-[#FAEBCD] text-sm">
             {/* Name Input */}
@@ -88,11 +88,11 @@ const ContactComponent = () => {
             </div>
 
             {/* Service */}
-            <div className="relative">
+            <div>
               <label className="block text-[#FAEBCD] font-semibold mb-1.5 text-sm">
                 Choose Activity
               </label>
-              <div className="relative">
+              <div>
                 <button
                   onClick={() => setShowServiceDropdown(!showServiceDropdown)}
                   className="w-full text-left px-3 py-2 rounded-lg bg-[#FAEBCD]/10 border border-[#FAEBCD]/20 text-[#FAEBCD] hover:text-[#FAEBCD] transition-colors duration-200 flex items-center justify-between text-sm"
@@ -115,7 +115,7 @@ const ContactComponent = () => {
                   </svg>
                 </button>
                 {showServiceDropdown && (
-                  <div className="absolute top-full left-0 right-0 mt-1 bg-[#FAEBCD] rounded-lg shadow-lg z-[100] border max-h-48 overflow-y-auto">
+                  <div className="absolute top-40 left-0 right-0 mt-1 bg-[#FAEBCD] rounded-lg shadow-lg z-20 border max-h-48 overflow-y-auto">
                     {services.map((service, index) => (
                       <button
                         key={index}

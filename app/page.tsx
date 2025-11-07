@@ -9,16 +9,7 @@ import Testimonials from "@/app/components/testimonials";
 import Booking from "@/app/components/booksection";
 import Footer from "@/app/components/footer";
 import Particles from "@/app/components/particles";
-
-/**
- * IMPORTANT: Replace all REPLACE_* placeholders with real values:
- * - REPLACE_SITE_URL (https://example.com)
- * - REPLACE_OG_IMAGE (absolute URL to OG image)
- * - REPLACE_LOGO
- * - REPLACE_PHONE
- * - REPLACE_ADDRESS_*
- * - REPLACE_SOCIAL links
- */
+import AboutUs from "@/app/components/aboutus";
 
 export const metadata = {
   title: "Elite Clubhouse & Billiards — Pool, Lounge & Events",
@@ -125,6 +116,7 @@ export default function Home() {
       
       <main className="z-20 space-y-20">
         <Hero />
+        <AboutUs />
         <Facilities />
         <Cafe />
         <Testimonials />
