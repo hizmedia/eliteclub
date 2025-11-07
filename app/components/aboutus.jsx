@@ -50,33 +50,6 @@ export default function AboutUs() {
         </p>
       </div>
 
-      {/* Facilities Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full max-w-6xl mb-12">
-        {facilities.map((facility, index) => {
-          const Icon = facility.icon;
-          return (
-            <div 
-              key={index}
-              className="relative group"
-            >
-              <div className="flex flex-col items-center text-center p-8 rounded-2xl bg-gradient-to-br from-[#D4941A]/10 to-transparent border border-[#D4941A]/20 hover:border-[#D4941A]/40 transition-all duration-300 hover:shadow-lg hover:shadow-[#D4941A]/20">
-                <div className="w-16 h-16 md:w-20 md:h-20 bg-[#D4941A] rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <Icon className="w-8 h-8 md:w-10 md:h-10 text-[#FAEBCD]" strokeWidth={2} />
-                </div>
-                <h3 className="text-[#F5E6D3] text-xl md:text-2xl lg:text-3xl font-elmessiri font-bold mb-4">
-                  {facility.title}
-                </h3>
-                <p className="text-[#F5E6D3] text-sm md:text-base lg:text-lg font-poppins opacity-70 leading-relaxed">
-                  {facility.description}
-                </p>
-              </div>
-              {/* Decorative sparkle */}
-              <Sparkles className="absolute -top-3 -right-3 text-[#F7C873] w-5 h-5 opacity-50" />
-            </div>
-          );
-        })}
-      </div>
-
       {/* Bottom Section with Values */}
       <div className="w-full max-w-5xl mt-8">
         <div className="bg-gradient-to-r from-[#D4941A]/5 via-[#D4941A]/10 to-[#D4941A]/5 rounded-3xl p-8 md:p-12 border border-[#D4941A]/20">

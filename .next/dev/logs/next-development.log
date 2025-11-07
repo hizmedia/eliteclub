@@ -87,3 +87,4 @@ Import trace:
 [00:18:41.516] Server  LOG      ✓ Compiled in 37ms
 [00:19:06.583] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [00:19:34.534] Server  LOG      ✓ Compiled in 202ms
+[00:21:16.417] Server  LOG      ✓ Compiled in 152ms
