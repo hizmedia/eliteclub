@@ -20,19 +20,19 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "Instagram",
-      href: "https://instagram.com",
+      href: "https://www.instagram.com/eliteclubhouseandbilliard",
       icon: Instagram,
       hoverColor: "hover:text-pink-500",
     },
     {
       name: "Facebook",
-      href: "https://facebook.com",
+      href: "https://www.facebook.com/p/Elite-Clubhouse-Billiard-61578842330155",
       icon: Facebook,
       hoverColor: "hover:text-blue-500",
     },
     {
       name: "TikTok",
-      href: "https://tiktok.com",
+      href: "https://www.tiktok.com/discover/elite-clubhouse-and-billiards-in-qatar",
       icon: TikTokIcon,
       hoverColor: "hover:text-white",
     },

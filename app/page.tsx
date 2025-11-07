@@ -10,6 +10,7 @@ import Booking from "@/app/components/booksection";
 import Footer from "@/app/components/footer";
 import Particles from "@/app/components/particles";
 import AboutUs from "@/app/components/aboutus";
+import Socials from "@/app/components/socials";
 
 export const metadata = {
   title: "Elite Clubhouse & Billiards — Pool, Lounge & Events",
@@ -123,6 +124,7 @@ export default function Home() {
         <section id="booking">
           <Booking />
         </section>
+        <Socials />
       </main>
       <Footer />
     </div>

@@ -15,13 +15,13 @@ export default function Navbar() {
     <nav className="bg-[#DC9A09]/30 sticky top-0 z-80 font-merriweather w-full h-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="hidden md:flex items-center justify-between h-16">
-          <div className="relative h-8 w-auto">
+          <div className="relative h-16 w-auto">
             <Image
-              src="https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png"
+              src="https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png"
               alt="Elite Club Logo"
               width={100}
               height={32}
-              className="h-8 w-auto"
+              className="h-16 w-auto"
             />
           </div>
           {/* Center - Nav Links */}
@@ -51,7 +51,7 @@ export default function Navbar() {
           {/* Center - Logo */}
           <div className="relative h-7 w-7">
             <Image
-              src="https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png"
+              src="https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png"
               alt="Elite Club Logo"
               fill
               className="object-contain"

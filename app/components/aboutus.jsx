@@ -52,7 +52,7 @@ export default function AboutUs() {
 
       {/* Bottom Section with Values */}
       <div className="w-full max-w-5xl mt-8">
-        <div className="bg-gradient-to-r from-[#D4941A]/5 via-[#D4941A]/10 to-[#D4941A]/5 rounded-3xl p-8 md:p-12 border border-[#D4941A]/20">
+        <div className="bg-gradient-to-r from-[#D4941A]/5 via-[#D4941A]/10 to-[#D4941A]/5 rounded-2xl p-8 md:p-12 border border-[#D4941A]/20">
           <div className="text-center mb-8">
             <Sparkles className="text-[#F7C873] w-6 h-6 mx-auto mb-4" />
             <h3 className="font-elmessiri text-3xl md:text-4xl font-bold text-[#F5E6D3] mb-6">
@@ -102,7 +102,7 @@ export default function AboutUs() {
 
       {/* CTA Button */}
       <div className="mt-16 flex flex-col items-center gap-4">
-        <button className="px-12 py-4 bg-[#DC9A09] rounded-xl font-elmessiri font-bold text-[#FAEBCD] text-xl md:text-3xl hover:bg-[#F7C873] transition-colors duration-300 shadow-lg hover:shadow-xl hover:shadow-[#DC9A09]/30">
+        <button className="px-12 py-2 bg-[#DC9A09] rounded-lg font-elmessiri font-bold text-[#FAEBCD] text-lg md:text-2xl hover:bg-[#F7C873] transition-colors duration-300 shadow-lg hover:shadow-xl hover:shadow-[#DC9A09]/30 cursor-pointer">
           Begin Your Journey
         </button>
       </div>

@@ -356,7 +356,7 @@ const CustomerStoryCarousel = ()=>{
     const [currentIndex, setCurrentIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const [rotation, setRotation] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     // Center logo - replace this URL with your actual logo
-    const centerLogo = "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png"; // Replace with your logo
+    const centerLogo = "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png"; // Replace with your logo
     const testimonials = [
         {
             id: 1,

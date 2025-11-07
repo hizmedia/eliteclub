@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Sparkles } from "lucide-react";
+import Image from "next/image";
 
 const CustomerStoryCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -9,36 +10,36 @@ const CustomerStoryCarousel = () => {
 
   // Center logo - replace this URL with your actual logo
   const centerLogo =
-    "https://res.cloudinary.com/dky6bti4g/image/upload/v1761994850/ELITE_Logo_eydfxi.png"; // Replace with your logo
+    "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png"; // Replace with your logo
 
   const testimonials = [
     {
       id: 1,
-      name: "Mohammed Abdullah",
-      text: "أصبح نادي إيليت جزءًا من عطلتنا الأسبوعية. أطفالي يعشقون المسبح، وأنا أنهي اليوم دائمًا بمباراة بلياردو ممتعة مع الأصدقاء.",
+      name: "Denize Denize",
+      text: "I had a wonderful experience at Elite Clubhouse & Billiard. From the moment I walked in, the atmosphere was welcoming and relaxing. The staff are always attentive, friendly, and professional, making sure every customer feels comfortable. A special mention goes to Jane, who went above and beyond to make the experience even better. Her warm approach and excellent service really stood out.",
       image:
-        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762021966/Arabian-Man_xxghim.png",
+        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022767/Girl_t6qehr.png",
     },
     {
       id: 2,
-      name: "Sarah Khalifa",
-      text: "لم أرَ مكانًا يجمع بين الأناقة والراحة وروح المجتمع مثل نادي إيليت. أشعر أنه بيتي الثاني بالفعل.",
+      name: "Maddy Craze",
+      text: "I had a great experience! Jane was very kind, adorable, and friendly. She assisted me really well and made me feel welcome. The place itself is amazing and beautiful – it has billiards, a pool, and even a gym. Highly recommended!",
       image:
-        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022455/Arabian-Woman_qf8egy.png",
+        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762533432/CEO-female_zik4jf.png",
     },
     {
       id: 3,
-      name: "Mohammad Siyam",
-      text: "Ever since we joined Elite Club, our weekends have completely changed, mashallah. The atmosphere is peaceful and family-oriented — my children can swim and play safely while I unwind over a cup of coffee or a friendly billiards match. You truly feel the sense of community here, everyone greets you with warmth and respect. Inshallah, we'll continue to spend many more beautiful moments here with family and friends.",
+      name: "Jen C",
+      text: "I love the place, the crew is very friendly specially Jane, she take good care of us she did a great job such a kind and wonderful person. Highly recommended I'll be back again.",
       image:
-        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022543/CEO-male_wbub1d.png",
+        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762533465/Waiter-female_py31tf.png",
     },
     {
       id: 4,
-      name: "Omar Hassan",
-      text: "ما شاء الله، المرافق في نادي إيليت متميزة بكل المقاييس. صالة الرياضة مجهزة بالكامل، والموظفون محترفون وودودون، والمناطق الاجتماعية مثالية للتعارف. من النادر أن تجد مكانًا يهتم بالكبار والصغار بهذه الدرجة من العناية. إن شاء الله سيواصل النادي نموه ويجمع الناس معًا — فهو بالفعل يجسد روح المجتمع والرقي.",
+      name: "Ruffa Vulag",
+      text: "Experience the new hangout place in madinat (ELite clubhouse and billiard) They have outdoor swimming pool🤩🤩 They have also Billiards ,table tennis, kids billiard pool, .They have also foods and beverages,like Pizza ,pasta, Burgers and some main course also try their Coffee😍😍😍.",
       image:
-        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022629/Grandfather_ljmpnv.png",
+        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762533517/Programmer-female_zmj5mc.png",
     },
     {
       id: 5,
@@ -49,10 +50,10 @@ const CustomerStoryCarousel = () => {
     },
     {
       id: 6,
-      name: "Layla Al Suwaidi",
-      text: "From the first day I visited Elite Club, I felt a genuine sense of belonging, mashallah. The events, the people, and even the small details reflect a culture of care and respect. I've made so many friendships here that feel like family. Inshallah, I hope this place continues to be a space where hearts connect and memories are made for generations to come.",
+      name: "Ibrahim “Ibs” Abd Rahman",
+      text: "Shallow pool for the kids which makes it safe for the younger ones. Adult pool is deep enough and wide enough to have a good exercise.",
       image:
-        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022767/Girl_t6qehr.png",
+        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762021966/Arabian-Man_xxghim.png",
     },
     {
       id: 7,
@@ -63,10 +64,10 @@ const CustomerStoryCarousel = () => {
     },
     {
       id: 8,
-      name: "Zainab Khatib",
-      text: "ما شاء الله، المرافق في نادي إيليت متميزة بكل المقاييس. صالة الرياضة مجهزة بالكامل، والموظفون محترفون وودودون، والمناطق الاجتماعية مثالية للتعارف. من النادر أن تجد مكانًا يهتم بالكبار والصغار بهذه الدرجة من العناية. إن شاء الله سيواصل النادي نموه ويجمع الناس معًا — فهو بالفعل يجسد روح المجتمع والرقي.",
+      name: "Nalweyiso Christine",
+      text: "Guys come with me to visit this new place it’s amazing and it’s good for relaxing with good environment flesh drinks and delicious foods with amazing stuff. trust me try this place you will thank me later all the members are welcoming.so this place located at barwa near ruru supermarket,see you guys at elite club and billiard ,tel a friend to tell a friend",
       image:
-        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762022868/Employee-female_odwsum.png",
+        "https://res.cloudinary.com/dky6bti4g/image/upload/v1762533546/Lecturer-female_t7v7ic.png",
     },
   ];
 
@@ -157,23 +158,29 @@ const CustomerStoryCarousel = () => {
             </p>
             <Sparkles className="text-[#F7C873] w-3 h-3 md:w-6 md:h-6 ml-auto -mt-4" />
           </div>
+          <div className="hidden md:flex justify-center gap-2 mb-8 w-40 h-22 mx-auto">
+          <Image
+            src="https://res.cloudinary.com/dky6bti4g/image/upload/v1762532302/Google-Review-Logo_li31ct.png"
+            alt="Google Review"
+            height={200}
+            width={400}
+          />
         </div>
+        </div>
+
+        
 
         {/* Main Content */}
         <div className="px-2">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             {/* Mobile Layout - Stars at top */}
-            <div className="md:hidden flex justify-center gap-2 mb-8">
-              {[...Array(5)].map((_, i) => (
-                <svg
-                  key={i}
-                  className="w-6 h-6 text-[#DC9A09]"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-              ))}
+            <div className="md:hidden flex justify-center gap-2 mb-8 w-20 h-10 mx-auto">
+              <Image
+                src="https://res.cloudinary.com/dky6bti4g/image/upload/v1762532302/Google-Review-Logo_li31ct.png"
+                alt="Google Review"
+                height={200}
+                width={400}
+              />
             </div>
 
             {/* Left Side - Solar System Orbit */}
@@ -181,7 +188,7 @@ const CustomerStoryCarousel = () => {
               <div className="relative w-65 h-65 md:w-80 md:h-80">
                 {/* Center Logo */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-full  overflow-hidden shadow-lg">
+                  <div className="w-20 h-20 md:w-24 md:h-24 rounded-full  overflow-hidden shadow-lg">
                     <img
                       src={centerLogo}
                       alt="Clubhouse Logo"
@@ -240,7 +247,7 @@ const CustomerStoryCarousel = () => {
                 <div className="absolute inset-8 rounded-full border border-[#DC9A09] opacity-30"></div>
 
                 {/* Name label - Desktop only */}
-                <div className="hidden md:block absolute -top-12 left-1/2 transform -translate-x-1/2 text-[#F7C873] text-lg font-light font-elmessiri">
+                <div className="hidden md:block absolute -top-12 left-1/2 transform -translate-x-1/2 text-[#F7C873] text-lg font-light font-elmessiri text-nowrap">
                   {currentTestimonial.name}
                 </div>
               </div>
