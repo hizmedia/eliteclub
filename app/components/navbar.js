@@ -49,12 +49,12 @@ export default function Navbar() {
           </a>
 
           {/* Center - Logo */}
-          <div className="relative h-7 w-7">
+          <div className="relative h-16 w-16">
             <Image
               src="https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png"
               alt="Elite Club Logo"
               fill
-              className="object-contain"
+              className="object-cover"
             />
           </div>
 

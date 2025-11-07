@@ -539,3 +539,12 @@ The error was caused by using 'styled-jsx'. It only works in a Client Component 
 [08:28:48.012] Server  LOG      ✓ Compiled in 49ms
 [08:29:07.621] Server  LOG      ✓ Compiled in 55ms
 [08:29:10.437] Server  LOG      ✓ Compiled in 26ms
+[09:58:21.776] Server  LOG      ✓ Compiled in 794ms
+[09:58:30.273] Server  LOG      ✓ Compiled in 62ms
+[09:58:35.046] Server  LOG      ✓ Compiled in 71ms
+[09:58:40.732] Server  LOG      ✓ Compiled in 58ms
+[09:58:53.345] Server  LOG      ✓ Compiled in 44ms
+[09:59:01.282] Server  LOG      ✓ Compiled in 160ms
+[09:59:03.579] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[09:59:03.580] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[09:59:09.920] Server  LOG      ✓ Compiled in 49ms
