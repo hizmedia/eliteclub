@@ -11,6 +11,7 @@ import Footer from "@/app/components/footer";
 import Particles from "@/app/components/particles";
 import AboutUs from "@/app/components/aboutus";
 import Socials from "@/app/components/socials";
+import Membership from "@/app/components/membership";
 
 export const metadata = {
   title: "Elite Clubhouse & Billiards — Pool, Lounge & Events",
@@ -38,7 +39,9 @@ export const metadata = {
     title: "Elite Clubhouse & Billiards",
     description:
       "Premier pool hall, social lounge, and events space. Book tables, join a league, or host your next private event.",
-    images: ["https://res.cloudinary.com/dky6bti4g/image/upload/v1762108951/OG_q1uz4x.jpg"],
+    images: [
+      "https://res.cloudinary.com/dky6bti4g/image/upload/v1762108951/OG_q1uz4x.jpg",
+    ],
   },
   icons: {
     icon: "/favicon.ico",
@@ -51,50 +54,56 @@ export default function Home() {
   const ldJson = {
     "@context": "https://schema.org",
     "@type": "EntertainmentBusiness",
-    "name": "Elite Clubhouse & Billiards",
-    "alternateName": "Elite Clubhouse",
-    "url": "https://eliteclub-khaki.vercel.app",
-    "logo": "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png",
-    "image": ["https://res.cloudinary.com/dky6bti4g/image/upload/v1762108951/OG_q1uz4x.jpg"],
-    "description":
+    name: "Elite Clubhouse & Billiards",
+    alternateName: "Elite Clubhouse",
+    url: "https://eliteclub-khaki.vercel.app",
+    logo: "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png",
+    image: [
+      "https://res.cloudinary.com/dky6bti4g/image/upload/v1762108951/OG_q1uz4x.jpg",
+    ],
+    description:
       "Elite Clubhouse & Billiards is the area's premier pool hall and social lounge offering table bookings, Karate, Sports & Fitness, food & drinks, and private events.",
-    "telephone": "+9747409113",
-    "address": {
+    telephone: "+9747409113",
+    address: {
       "@type": "PostalAddress",
-      "streetAddress": "Madinatna",
-      "addressLocality": "Al Wakrah",
-      "addressRegion": "Al Wukair",
-      "postalCode": "00000",
-      "addressCountry": "974"
+      streetAddress: "Madinatna",
+      addressLocality: "Al Wakrah",
+      addressRegion: "Al Wukair",
+      postalCode: "00000",
+      addressCountry: "974",
     },
-    "priceRange": "$$",
-    "openingHoursSpecification": [
+    priceRange: "$$",
+    openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
+        dayOfWeek: [
           "Monday",
           "Tuesday",
           "Wednesday",
           "Thursday",
           "Friday",
           "Saturday",
-          "Sunday"
+          "Sunday",
         ],
-        "opens": "12:00",
-        "closes": "01:00"
-      }
+        opens: "12:00",
+        closes: "01:00",
+      },
     ],
-    "sameAs": [
+    sameAs: [
       "https://www.facebook.com/p/Elite-Clubhouse-Billiard-61578842330155",
       "https://www.instagram.com/eliteclubhouseandbilliard",
-      "https://www.tiktok.com/discover/elite-clubhouse-and-billiards-in-qatar"
-    ]
+      "https://www.tiktok.com/discover/elite-clubhouse-and-billiards-in-qatar",
+    ],
   };
 
   return (
     <div className="relative flex flex-col bg-[#1B1B1B] min-h-screen">
       {/* JSON-LD rendered server-side for SEO */}
-      <Script id="ld-json" type="application/ld+json" strategy="afterInteractive">
+      <Script
+        id="ld-json"
+        type="application/ld+json"
+        strategy="afterInteractive"
+      >
         {JSON.stringify(ldJson)}
       </Script>
 
@@ -114,7 +123,6 @@ export default function Home() {
         />
       </div>
 
-      
       <main className="z-20 space-y-20">
         <Hero />
         <AboutUs />
@@ -123,6 +131,9 @@ export default function Home() {
         <Testimonials />
         <section id="booking">
           <Booking />
+        </section>
+        <section id="membership">
+          <Membership />
         </section>
         <Socials />
       </main>

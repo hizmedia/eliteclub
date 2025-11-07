@@ -229,3 +229,294 @@ Import trace:
 [04:53:32.460] Server  LOG      ✓ Compiled in 98ms
 [04:53:38.818] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
 [04:53:38.819] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:23:06.085] Server  LOG      ✓ Compiled in 271ms
+[07:24:09.049] Server  LOG      ✓ Compiled in 930ms
+[07:25:28.948] Server  LOG      ✓ Compiled in 118ms
+[07:25:35.274] Server  LOG      ✓ Compiled in 50ms
+[07:25:48.114] Server  LOG      ✓ Compiled in 39ms
+[07:26:46.309] Server  LOG      ✓ Compiled in 382ms
+[07:27:02.585] Server  LOG      ✓ Compiled in 1365ms
+[07:28:13.430] Server  LOG      ✓ Compiled in 414ms
+[07:28:57.843] Server  LOG      ✓ Compiled in 66ms
+[07:28:58.338] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[07:29:11.699] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:29:11.712] Server  LOG      ✓ Compiled in 395ms
+[07:29:13.477] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762543648126}
+[07:29:16.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:29:17.453] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:29:17.453] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:29:17.453] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762543652916}
+[07:29:27.982] Server  LOG      ✓ Compiled in 44ms
+[07:29:29.497] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:29:29.497] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:29:29.497] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:29:29.497] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:29:29.634] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:29:29.634] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[07:32:38.302] Server  LOG      ✓ Compiled in 1083ms
+[07:32:38.373] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/aboutus.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[07:32:42.799] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:32:44.227] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:44.227] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:44.227] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:32:44.227] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:32:44.227] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:32:44.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762543859980}
+[07:33:08.364] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/aboutus.jsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[07:33:08.371] Server  LOG      ✓ Compiled in 155ms
+[07:33:10.146] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:33:12.441] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:33:12.443] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:33:12.443] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762543887301}
+[07:33:12.950] Server  LOG      ✓ Compiled in 137ms
+[07:33:13.532] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:33:13.532] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:33:13.532] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:33:13.662] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:33:13.662] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:33:13.662] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[07:34:49.596] Server  LOG      ✓ Compiled in 167ms
+[07:36:22.906] Server  LOG      ✓ Compiled in 287ms
+[07:36:34.418] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:36:35.055] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:36:35.055] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:36:35.055] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[07:36:35.055] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:36:35.055] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:36:35.055] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762544090838}
+[07:37:07.377] Server  LOG      ✓ Compiled in 98ms
+[07:37:20.918] Server  LOG      ✓ Compiled in 44ms
+[07:37:28.308] Server  LOG      ✓ Compiled in 48ms
+[07:37:35.102] Server  LOG      ✓ Compiled in 46ms
+[07:38:22.631] Server  LOG      ✓ Compiled in 52ms
+[07:38:24.899] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:38:29.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:38:29.955] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:38:29.955] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:38:29.955] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762544205715}
+[07:38:29.955] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:38:29.955] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:38:29.955] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[07:39:30.407] Server  LOG      ✓ Compiled in 127ms
+[07:41:14.903] Server  LOG      ✓ Compiled in 114ms
+[07:41:31.585] Server  LOG      ✓ Compiled in 47ms
+[07:44:00.547] Server  LOG      ✓ Compiled in 136ms
+[07:46:44.930] Server  LOG      ✓ Compiled in 98ms
+[07:47:02.980] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:47:15.969] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:47:46.258] Server  LOG      ✓ Compiled in 164ms
+[07:47:56.624] Server  LOG      ✓ Compiled in 84ms
+[07:48:04.287] Server  LOG      ✓ Compiled in 77ms
+[07:48:11.452] Server  LOG      ✓ Compiled in 89ms
+[07:48:18.619] Server  LOG      ✓ Compiled in 89ms
+[07:48:23.519] Server  LOG      ✓ Compiled in 97ms
+[07:48:28.692] Server  LOG      ✓ Compiled in 41ms
+[07:49:29.231] Server  LOG      ✓ Compiled in 53ms
+[07:49:43.421] Server  LOG      ✓ Compiled in 54ms
+[07:50:01.748] Server  LOG      ✓ Compiled in 69ms
+[07:52:23.765] Server  LOG      ✓ Compiled in 194ms
+[07:54:51.997] Server  LOG      ✓ Compiled in 229ms
+[07:55:40.404] Server  LOG      ✓ Compiled in 113ms
+[07:55:54.731] Server  LOG      ✓ Compiled in 45ms
+[07:57:05.759] Server  LOG      ✓ Compiled in 97ms
+[07:57:06.436] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[07:57:24.338] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:57:24.345] Server  LOG      ✓ Compiled in 67ms
+[07:57:26.447] Server  ERROR    ⨯ ReferenceError: Link is not defined
+[07:57:26.486] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[07:57:27.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:57:29.105] Browser ERROR   uncaughtError: ReferenceError: Link is not defined
+[07:57:38.803] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:57:38.812] Server  LOG      ✓ Compiled in 235ms
+[07:57:40.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:57:41.869] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:57:41.870] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:57:41.870] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[07:57:41.870] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:57:41.870] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:57:41.870] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762545357654}
+[07:57:42.301] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:57:42.301] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:57:46.166] Browser WARN    target Element not found
+[07:57:47.341] Browser WARN    target Element not found
+[07:57:49.605] Browser WARN    target Element not found
+[07:57:51.300] Browser WARN    target Element not found
+[07:57:51.960] Browser WARN    target Element not found
+[07:57:52.664] Browser WARN    target Element not found
+[07:57:53.873] Browser WARN    target Element not found
+[07:57:54.290] Browser WARN    target Element not found
+[07:57:56.834] Browser WARN    target Element not found
+[07:58:13.168] Server  LOG      ✓ Compiled in 104ms
+[07:58:14.840] Browser WARN    target Element not found
+[07:58:15.735] Browser WARN    target Element not found
+[07:58:18.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:58:19.295] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:58:19.295] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:58:19.295] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762545395072}
+[07:58:19.295] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:58:19.295] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:58:19.295] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[07:58:19.767] Browser WARN    target Element not found
+[07:58:20.371] Browser WARN    target Element not found
+[07:58:35.290] Server  LOG      ✓ Compiled in 242ms
+[07:58:49.025] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:59:11.732] Server  LOG      ✓ Compiled in 66ms
+[07:59:17.841] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:59:17.841] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[07:59:23.246] Server  LOG      ✓ Compiled in 45ms
+[07:59:36.673] Server  LOG      ✓ Compiled in 62ms
+[07:59:41.147] Server  LOG      ✓ Compiled in 61ms
+[07:59:47.772] Server  LOG      ✓ Compiled in 48ms
+[08:00:04.288] Server  LOG      ✓ Compiled in 42ms
+[08:00:14.369] Server  LOG      ✓ Compiled in 51ms
+[08:00:17.886] Server  LOG      ✓ Compiled in 39ms
+[08:00:32.035] Server  LOG      ✓ Compiled in 45ms
+[08:00:40.823] Server  LOG      ✓ Compiled in 36ms
+[08:00:45.755] Server  LOG      ✓ Compiled in 71ms
+[08:00:59.100] Server  LOG      ✓ Compiled in 49ms
+[08:01:06.069] Server  LOG      ✓ Compiled in 36ms
+[08:01:08.966] Server  LOG      ✓ Compiled in 39ms
+[08:01:18.988] Server  LOG      ✓ Compiled in 45ms
+[08:01:32.920] Server  LOG      ✓ Compiled in 39ms
+[08:01:46.492] Server  LOG      ✓ Compiled in 53ms
+[08:01:54.527] Server  LOG      ✓ Compiled in 55ms
+[08:02:06.451] Server  LOG      ✓ Compiled in 49ms
+[08:02:13.965] Server  LOG      ✓ Compiled in 44ms
+[08:02:25.137] Server  LOG      ✓ Compiled in 80ms
+[08:02:28.545] Server  LOG      ✓ Compiled in 47ms
+[08:02:33.585] Server  LOG      ✓ Compiled in 43ms
+[08:03:51.157] Server  LOG      ✓ Compiled in 113ms
+[08:04:10.793] Server  LOG      ✓ Compiled in 55ms
+[08:04:28.684] Server  LOG      ✓ Compiled in 48ms
+[08:04:30.607] Browser WARN    target Element not found
+[08:04:31.275] Browser WARN    target Element not found
+[08:04:32.342] Browser WARN    target Element not found
+[08:04:33.784] Browser WARN    target Element not found
+[08:04:40.550] Browser WARN    target Element not found
+[08:04:41.487] Browser WARN    target Element not found
+[08:04:42.175] Browser WARN    target Element not found
+[08:04:42.176] Browser WARN    target Element not found
+[08:04:43.281] Browser WARN    target Element not found
+[08:04:53.844] Server  LOG      ✓ Compiled in 149ms
+[08:05:27.592] Server  LOG      ✓ Compiled in 208ms
+[08:05:33.926] Server  LOG      ✓ Compiled in 61ms
+[08:06:14.049] Server  LOG      ✓ Compiled in 43ms
+[08:06:29.708] Server  LOG      ✓ Compiled in 44ms
+[08:06:35.882] Server  LOG      ✓ Compiled in 48ms
+[08:07:47.571] Server  LOG      ✓ Compiled in 40ms
+[08:08:55.924] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:08:57.638] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:08:57.638] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762001832/Final_2_Billiard_Triangle_1_ovxwa8.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:08:57.638] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762014817/Food_Icon_Coffee_and_Croissant_kdal4h.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:08:57.638] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:08:57.638] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:08:57.638] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762546033435}
+[08:09:00.126] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:09:00.126] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:09:10.277] Server  LOG      ✓ Compiled in 99ms
+[08:13:05.727] Server  LOG      ✓ Compiled in 1455ms
+[08:13:06.486] Browser ERROR   ./app/components/membership.jsx:1:28
+Ecmascript file had an error
+> 1 | import { useState, useRef, useEffect } from "react";
+    |                            ^^^^^^^^^
+  2 | import {
+  3 |   Sparkles,
+  4 |   Crown,
+
+You're importing a component that needs `useEffect`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./app/components/membership.jsx
+    ./app/page.tsx
+[08:13:06.487] Browser ERROR   ./app/components/membership.jsx:1:20
+Ecmascript file had an error
+> 1 | import { useState, useRef, useEffect } from "react";
+    |                    ^^^^^^
+  2 | import {
+  3 |   Sparkles,
+  4 |   Crown,
+
+You're importing a component that needs `useRef`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./app/components/membership.jsx
+    ./app/page.tsx
+[08:13:06.488] Browser ERROR   ./app/components/membership.jsx:1:10
+Ecmascript file had an error
+> 1 | import { useState, useRef, useEffect } from "react";
+    |          ^^^^^^^^
+  2 | import {
+  3 |   Sparkles,
+  4 |   Crown,
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+Import trace:
+  Server Component:
+    ./app/components/membership.jsx
+    ./app/page.tsx
+[08:13:06.488] Browser ERROR   ./app/components
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+[08:13:22.424] Server  LOG      ✓ Compiled in 756ms
+[08:13:57.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:13:58.738] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:13:58.738] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:13:58.738] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762546334491}
+[08:13:58.738] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:15:08.074] Server  LOG      ✓ Compiled in 94ms
+[08:15:15.370] Server  LOG      ✓ Compiled in 71ms
+[08:15:22.637] Server  LOG      ✓ Compiled in 131ms
+[08:15:34.862] Server  LOG      ✓ Compiled in 62ms
+[08:15:45.167] Server  LOG      ✓ Compiled in 53ms
+[08:15:50.475] Server  LOG      ✓ Compiled in 61ms
+[08:15:57.916] Server  LOG      ✓ Compiled in 52ms
+[08:16:34.467] Server  LOG      ✓ Compiled in 49ms
+[08:16:39.266] Server  LOG      ✓ Compiled in 52ms
+[08:17:31.809] Server  LOG      ✓ Compiled in 108ms
+[08:18:12.990] Server  LOG      ✓ Compiled in 111ms
+[08:18:19.021] Server  LOG      ✓ Compiled in 82ms
+[08:18:24.600] Server  LOG      ✓ Compiled in 221ms
+[08:18:47.912] Server  LOG      ✓ Compiled in 75ms
+[08:18:51.360] Server  LOG      ✓ Compiled in 65ms
+[08:18:58.121] Server  LOG      ✓ Compiled in 67ms
+[08:19:04.746] Server  LOG      ✓ Compiled in 80ms
+[08:19:11.439] Server  LOG      ✓ Compiled in 68ms
+[08:19:34.235] Server  LOG      ✓ Compiled in 43ms
+[08:19:39.169] Server  LOG      ✓ Compiled in 41ms
+[08:19:43.629] Server  LOG      ✓ Compiled in 64ms
+[08:20:09.910] Server  LOG      ✓ Compiled in 77ms
+[08:20:18.292] Server  LOG      ✓ Compiled in 76ms
+[08:20:24.304] Server  LOG      ✓ Compiled in 53ms
+[08:20:34.210] Server  LOG      ✓ Compiled in 69ms
+[08:20:39.134] Server  LOG      ✓ Compiled in 90ms
+[08:20:43.894] Server  LOG      ✓ Compiled in 75ms
+[08:20:51.284] Server  LOG      ✓ Compiled in 55ms
+[08:20:56.565] Server  LOG      ✓ Compiled in 72ms
+[08:21:10.625] Server  LOG      ✓ Compiled in 56ms
+[08:21:21.757] Server  LOG      ✓ Compiled in 36ms
+[08:21:30.963] Server  LOG      ✓ Compiled in 62ms
+[08:21:47.686] Server  LOG      ✓ Compiled in 76ms
+[08:21:52.851] Server  LOG      ✓ Compiled in 64ms
+[08:21:59.291] Server  LOG      ✓ Compiled in 61ms
+[08:22:03.276] Server  LOG      ✓ Compiled in 39ms
+[08:22:13.505] Server  LOG      ✓ Compiled in 34ms
+[08:22:17.676] Server  LOG      ✓ Compiled in 38ms
+[08:22:34.588] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/customers-of-coffee-shop-making-an-order-talking-2024-12-08-04-08-13-utc_dlqfzi.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:22:51.154] Server  LOG      ✓ Compiled in 61ms
+[08:23:18.432] Server  LOG      ✓ Compiled in 54ms
+[08:23:30.706] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1762107206/in-a-heartwarming-scene-a-professional-chef-serve-2025-01-15-16-17-03-utc_qgr4fh.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:23:49.297] Server  LOG      ✓ Compiled in 46ms
+[08:24:00.897] Server  LOG      ✓ Compiled in 49ms
+[08:24:03.691] Server  LOG      ✓ Compiled in 38ms
+[08:24:18.661] Server  LOG      ✓ Compiled in 47ms
+[08:25:03.041] Server  LOG      ✓ Compiled in 98ms

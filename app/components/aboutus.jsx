@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Sparkles, Check, Waves, Dumbbell, Trophy, Heart } from "lucide-react";
+import { Link } from "react-scroll";
 
 export default function AboutUs() {
   const facilities = [
@@ -102,9 +103,16 @@ export default function AboutUs() {
 
       {/* CTA Button */}
       <div className="mt-16 flex flex-col items-center gap-4">
+        <Link
+                      to="membership"
+                      smooth={true}
+                      duration={600}
+                      offset={-80} // useful if navbar overlaps section
+                    >
         <button className="px-12 py-2 bg-[#DC9A09] rounded-lg font-elmessiri font-bold text-[#FAEBCD] text-lg md:text-2xl hover:bg-[#F7C873] transition-colors duration-300 shadow-lg hover:shadow-xl hover:shadow-[#DC9A09]/30 cursor-pointer">
           Begin Your Journey
         </button>
+        </Link>
       </div>
     </section>
   );
