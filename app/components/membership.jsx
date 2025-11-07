@@ -192,7 +192,7 @@ I would like to know more about this membership and how to proceed with registra
         {tier.popular && (
           <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10">
             <div className="bg-[#DC9A09] px-4 py-1 rounded-full border-2 border-[#FAEBCD]">
-              <span className="text-[#FAEBCD] text-xs font-bold">
+              <span className="text-[#FAEBCD] text-xs font-bold text-nowrap">
                 MOST POPULAR
               </span>
             </div>
@@ -281,7 +281,7 @@ I would like to know more about this membership and how to proceed with registra
       </div>
 
       {/* Content Container */}
-      <div className="relative w-full max-w-7xl min-h-[600px] md:min-h-screen overflow-visible">
+      <div className="relative w-full max-w-7xl min-h-[700px] md:min-h-screen overflow-visible">
         {/* Membership Cards */}
         <div
           className={`absolute inset-0 z-0 transition-all duration-500 ease-in-out ${
@@ -300,7 +300,7 @@ I would like to know more about this membership and how to proceed with registra
               {membershipTiers.map((tier) => (
                 <div
                   key={tier.id}
-                  className="min-w-full snap-center px-4"
+                  className="min-w-full snap-center p-4"
                 >
                   {renderMembershipCard(tier)}
                 </div>

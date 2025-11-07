@@ -925,6 +925,10 @@
     min-height: 600px;
   }
 
+  .min-h-\[700px\] {
+    min-height: 700px;
+  }
+
   .min-h-\[800px\] {
     min-height: 800px;
   }

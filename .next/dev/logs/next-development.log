@@ -520,3 +520,22 @@ The error was caused by using 'styled-jsx'. It only works in a Client Component 
 [08:24:03.691] Server  LOG      ✓ Compiled in 38ms
 [08:24:18.661] Server  LOG      ✓ Compiled in 47ms
 [08:25:03.041] Server  LOG      ✓ Compiled in 98ms
+[08:26:42.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:26:44.513] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:26:44.696] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:26:44.696] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:26:44.697] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762547100453}
+[08:26:56.331] Server  LOG      ✓ Compiled in 179ms
+[08:27:40.972] Server  LOG      ✓ Compiled in 115ms
+[08:27:50.372] Server  LOG      ✓ Compiled in 127ms
+[08:27:55.535] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[08:27:56.788] Browser WARN    Image with src "https://res.cloudinary.com/dky6bti4g/image/upload/v1761993982/ELITE_Logo_4_bl18a0.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[08:27:56.788] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:27:56.788] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:27:56.788] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1762547172587}
+[08:28:08.884] Server  LOG      ✓ Compiled in 117ms
+[08:28:32.976] Server  LOG      ✓ Compiled in 39ms
+[08:28:43.397] Server  LOG      ✓ Compiled in 44ms
+[08:28:48.012] Server  LOG      ✓ Compiled in 49ms
+[08:29:07.621] Server  LOG      ✓ Compiled in 55ms
+[08:29:10.437] Server  LOG      ✓ Compiled in 26ms

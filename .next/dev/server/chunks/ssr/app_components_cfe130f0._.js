@@ -3546,7 +3546,7 @@ I would like to know more about this membership and how to proceed with registra
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "bg-[#DC9A09] px-4 py-1 rounded-full border-2 border-[#FAEBCD]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-[#FAEBCD] text-xs font-bold",
+                            className: "text-[#FAEBCD] text-xs font-bold text-nowrap",
                             children: "MOST POPULAR"
                         }, void 0, false, {
                             fileName: "[project]/app/components/membership.jsx",
@@ -3739,7 +3739,7 @@ I would like to know more about this membership and how to proceed with registra
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-6639e4eac6b78d61" + " " + "relative w-full max-w-7xl min-h-[600px] md:min-h-screen overflow-visible",
+                className: "jsx-6639e4eac6b78d61" + " " + "relative w-full max-w-7xl min-h-[700px] md:min-h-screen overflow-visible",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "jsx-6639e4eac6b78d61" + " " + `absolute inset-0 z-0 transition-all duration-500 ease-in-out ${showForm ? "-translate-x-full opacity-0" : "translate-x-0 opacity-100"}`,
@@ -3754,7 +3754,7 @@ I would like to know more about this membership and how to proceed with registra
                                         },
                                         className: "jsx-6639e4eac6b78d61" + " " + "flex overflow-x-auto snap-x snap-mandatory scrollbar-hide gap-4 pb-4",
                                         children: membershipTiers.map((tier)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-6639e4eac6b78d61" + " " + "min-w-full snap-center px-4",
+                                                className: "jsx-6639e4eac6b78d61" + " " + "min-w-full snap-center p-4",
                                                 children: renderMembershipCard(tier)
                                             }, tier.id, false, {
                                                 fileName: "[project]/app/components/membership.jsx",
